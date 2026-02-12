@@ -1,0 +1,5065 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "8kTsn",
+      "x": 0,
+      "y": 0,
+      "name": "BlockTrace Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$bg-dark",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "fvHzh",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#09090BCC",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cPDpF",
+              "name": "logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MxhG5",
+                  "name": "logoIcon",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$accent-blue",
+                  "cornerRadius": 8,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xxvSV",
+                      "x": 5,
+                      "y": 5,
+                      "name": "logoInner",
+                      "width": 14,
+                      "height": 14,
+                      "fill": "#FFFFFF30",
+                      "cornerRadius": 3,
+                      "layout": "none"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "7GvhQ",
+                  "name": "logoText",
+                  "fill": "$text-white",
+                  "content": "BlockTrace",
+                  "fontFamily": "Outfit",
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "08BFP",
+              "name": "nav",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pISQg",
+                  "name": "nav1",
+                  "fill": "$text-white-secondary",
+                  "content": "Platform",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ieIxD",
+                  "name": "nav2",
+                  "fill": "$text-white-secondary",
+                  "content": "Architecture",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "EftI2",
+                  "name": "nav3",
+                  "fill": "$text-white-secondary",
+                  "content": "Use Cases",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "SrCqc",
+                  "name": "nav4",
+                  "fill": "$text-white-secondary",
+                  "content": "Docs",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "oa2w7",
+                  "name": "nav5",
+                  "fill": "$text-white-secondary",
+                  "content": "Pricing",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qQ6Wh",
+              "name": "headerRight",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HReyg",
+                  "name": "loginLink",
+                  "fill": "$text-white-secondary",
+                  "content": "Sign In",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "iToyU",
+                  "name": "ctaBtn",
+                  "fill": "$accent-blue",
+                  "cornerRadius": 8,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3aHJ4",
+                      "name": "ctaBtnText",
+                      "fill": "#FFFFFF",
+                      "content": "Request Demo",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B2lws",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "radial",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "width": 1.5,
+              "height": 1.5
+            },
+            "colors": [
+              {
+                "color": "#1E3A5F30",
+                "position": 0
+              },
+              {
+                "color": "#09090B",
+                "position": 1
+              }
+            ],
+            "center": {
+              "y": 0.3
+            }
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80,
+            80,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8hmqn",
+              "name": "badge",
+              "cornerRadius": 20,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#27272A"
+              },
+              "gap": 8,
+              "padding": [
+                6,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "MuMVW",
+                  "name": "badgeDot",
+                  "fill": "#22C55E",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "dy4pO",
+                  "name": "badgeText",
+                  "fill": "$text-white-secondary",
+                  "content": "Now in Private Beta",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2UpO6",
+              "name": "heroContent",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mvZNE",
+                  "name": "headline",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "Composable Token Infrastructure for Real-World Assets",
+                  "lineHeight": 1.05,
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 64,
+                  "fontWeight": "800",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "YHXMG",
+                  "name": "subheadline",
+                  "fill": "#A1A1AA",
+                  "textGrowth": "fixed-width",
+                  "width": 680,
+                  "content": "Turn physical assets into verifiable digital structures with complete lifecycle traceability. From manufacturing to real estate — one composable layer.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 20
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VPlwI",
+              "name": "ctaRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sFYbZ",
+                  "name": "primaryCta",
+                  "fill": "$accent-blue",
+                  "cornerRadius": 10,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RrZP6",
+                      "name": "primaryCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Request Demo",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "W5I3H",
+                      "name": "primaryCtaIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EvpP0",
+                  "name": "secondaryCta",
+                  "cornerRadius": 10,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3F3F46"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bP739",
+                      "name": "secondaryCtaText",
+                      "fill": "$text-white-secondary",
+                      "content": "View Architecture",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "2SOQm",
+                      "name": "secondaryCtaIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "layers",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-white-tertiary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nM3dP",
+              "name": "Token Visualization",
+              "width": 800,
+              "height": 280,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1770887264229.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 16,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#1E1E24"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TEl1N",
+                  "x": 320,
+                  "y": 20,
+                  "name": "rootNode",
+                  "fill": "$accent-blue",
+                  "cornerRadius": 10,
+                  "gap": 10,
+                  "padding": [
+                    12,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "lS8aq",
+                      "name": "rootIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "box",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KqMt6",
+                      "name": "rootLabel",
+                      "fill": "#FFFFFF",
+                      "content": "Asset Token",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "line",
+                  "id": "xuXYo",
+                  "x": 370,
+                  "y": 60,
+                  "name": "line1",
+                  "width": 0,
+                  "height": 40,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB50"
+                  }
+                },
+                {
+                  "type": "line",
+                  "id": "sx6ol",
+                  "x": 370,
+                  "y": 100,
+                  "name": "line2",
+                  "width": -220,
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB30"
+                  }
+                },
+                {
+                  "type": "line",
+                  "id": "ZGrD4",
+                  "x": 370,
+                  "y": 100,
+                  "name": "line3",
+                  "width": 220,
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB30"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "OxOVJ",
+                  "x": 80,
+                  "y": 110,
+                  "name": "child1",
+                  "fill": "#18181B",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "9Cvxp",
+                      "name": "child1Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "file-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HN2Rb",
+                      "name": "child1Label",
+                      "fill": "$text-white-secondary",
+                      "content": "Certificate",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4ewY3",
+                  "x": 310,
+                  "y": 110,
+                  "name": "child2",
+                  "fill": "#18181B",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "AcrYX",
+                      "name": "child2Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "cpu",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y3e3g",
+                      "name": "child2Label",
+                      "fill": "$text-white-secondary",
+                      "content": "Component",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wRujn",
+                  "x": 530,
+                  "y": 110,
+                  "name": "child3",
+                  "fill": "#18181B",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "oruwd",
+                      "name": "child3Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "file-text",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vTxek",
+                      "name": "child3Label",
+                      "fill": "$text-white-secondary",
+                      "content": "Document",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "line",
+                  "id": "Mmf3R",
+                  "x": 150,
+                  "y": 146,
+                  "name": "vline1",
+                  "width": 0,
+                  "height": 30,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB20"
+                  }
+                },
+                {
+                  "type": "line",
+                  "id": "gm8jJ",
+                  "x": 370,
+                  "y": 146,
+                  "name": "vline2",
+                  "width": 0,
+                  "height": 30,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB20"
+                  }
+                },
+                {
+                  "type": "line",
+                  "id": "6iiN8",
+                  "x": 590,
+                  "y": 146,
+                  "name": "vline3",
+                  "width": 0,
+                  "height": 30,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#2563EB20"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "OmPsG",
+                  "x": 50,
+                  "y": 184,
+                  "name": "sub1a",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "nXmYk",
+                      "name": "sub1aIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "shield-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uxSp9",
+                      "name": "sub1aLabel",
+                      "fill": "#71717A",
+                      "content": "Issuer Sig",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7PANC",
+                  "x": 180,
+                  "y": 184,
+                  "name": "sub1b",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "60qpX",
+                      "name": "sub1bIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "calendar",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oyyJo",
+                      "name": "sub1bLabel",
+                      "fill": "#71717A",
+                      "content": "Expiry",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QGnZp",
+                  "x": 290,
+                  "y": 184,
+                  "name": "sub2a",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "fRAUi",
+                      "name": "sub2aIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "hash",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "96msP",
+                      "name": "sub2aLabel",
+                      "fill": "#71717A",
+                      "content": "Serial No.",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cF7RG",
+                  "x": 410,
+                  "y": 184,
+                  "name": "sub2b",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "4InMm",
+                      "name": "sub2bIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "scan",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tla47",
+                      "name": "sub2bLabel",
+                      "fill": "#71717A",
+                      "content": "Origin",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yc6At",
+                  "x": 530,
+                  "y": 184,
+                  "name": "sub3a",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "OJrj2",
+                      "name": "sub3aIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "file-text",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yYMzz",
+                      "name": "sub3aLabel",
+                      "fill": "#71717A",
+                      "content": "PDF Hash",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ndXYd",
+                  "x": 650,
+                  "y": 184,
+                  "name": "sub3b",
+                  "fill": "#111114",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#1E1E24"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "xa8E0",
+                      "name": "sub3bIcon",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "timer",
+                      "iconFontFamily": "lucide",
+                      "fill": "#3B82F680"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yt8LK",
+                      "name": "sub3bLabel",
+                      "fill": "#71717A",
+                      "content": "Version",
+                      "fontFamily": "Inter",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Jsiv5",
+                  "x": 220,
+                  "y": 248,
+                  "name": "vizLabel",
+                  "fill": "#3F3F46",
+                  "content": "Composable Token Pack — Recursive Asset Structure",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "27tD5",
+              "name": "trustBar",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xkcfz",
+                  "name": "trustLabel",
+                  "fill": "#52525B",
+                  "content": "TRUSTED BY ENTERPRISE TEAMS",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "qhyXB",
+                  "name": "trustLogos",
+                  "width": "fill_container",
+                  "gap": 48,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Tsu92",
+                      "name": "tl1",
+                      "fill": "#52525B",
+                      "content": "Siemens",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TKFW6",
+                      "name": "tl2",
+                      "fill": "#52525B",
+                      "content": "Maersk",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qWeMc",
+                      "name": "tl3",
+                      "fill": "#52525B",
+                      "content": "JLL",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wUkIy",
+                      "name": "tl4",
+                      "fill": "#52525B",
+                      "content": "Deloitte",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bLfFr",
+                      "name": "tl5",
+                      "fill": "#52525B",
+                      "content": "BASF",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qSiYj",
+          "name": "Problem Section",
+          "width": "fill_container",
+          "fill": "$bg-light",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "91ENA",
+              "name": "problemHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mC8Jy",
+                  "name": "problemLabel",
+                  "fill": "$accent-blue",
+                  "content": "THE PROBLEM",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "E2w90",
+                  "name": "problemHeadline",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Traceability Is Broken",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "OptS2",
+                  "name": "problemSub",
+                  "fill": "$text-dark-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Enterprise asset data lives in fragmented silos. Compliance is manual. Cross-organisation trust is non-existent. Bills of materials are unverifiable.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "0fiRc",
+              "name": "comparisonRow",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BTUHQ",
+                  "name": "todayCard",
+                  "width": 560,
+                  "fill": "#FEF2F2",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FECACA"
+                  },
+                  "layout": "vertical",
+                  "gap": 28,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fTrCk",
+                      "name": "todayHeader",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hpm5q",
+                          "name": "todayIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle-x",
+                          "iconFontFamily": "lucide",
+                          "fill": "#DC2626"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rKJTd",
+                          "name": "todayTitle",
+                          "fill": "#991B1B",
+                          "content": "Today: Fragmented Systems",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wwsou",
+                      "name": "todayItems",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iu6uk",
+                          "name": "ti1",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "PIh4s",
+                              "name": "ti1i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#DC2626",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "u4nkn",
+                              "name": "ti1t",
+                              "fill": "#7F1D1D",
+                              "content": "Siloed enterprise databases with no interoperability",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FTIak",
+                          "name": "ti2",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "r1WmM",
+                              "name": "ti2i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#DC2626",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "8tnqN",
+                              "name": "ti2t",
+                              "fill": "#7F1D1D",
+                              "content": "Manual compliance and audit processes",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "53k64",
+                          "name": "ti3",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "On8UX",
+                              "name": "ti3i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#DC2626",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "xE6As",
+                              "name": "ti3t",
+                              "fill": "#7F1D1D",
+                              "content": "No cross-organisation trust layer",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XijBL",
+                          "name": "ti4",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "enoBj",
+                              "name": "ti4i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#DC2626",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "EG7sr",
+                              "name": "ti4t",
+                              "fill": "#7F1D1D",
+                              "content": "Non-verifiable bills of materials",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7x281",
+                          "name": "ti5",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "0Bmig",
+                              "name": "ti5i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#DC2626",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "7Mvsl",
+                              "name": "ti5t",
+                              "fill": "#7F1D1D",
+                              "content": "Fragmented asset lifecycle records",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yg5EI",
+                  "name": "btCard",
+                  "width": 560,
+                  "fill": "#F0FDF4",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "layout": "vertical",
+                  "gap": 28,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jaNWa",
+                      "name": "btHeader",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "UsZR4",
+                          "name": "btIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#16A34A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XHrG5",
+                          "name": "btTitle",
+                          "fill": "#14532D",
+                          "content": "With BlockTrace: Connected Graph",
+                          "fontFamily": "Outfit",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q4OdY",
+                      "name": "btItems",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "d4axe",
+                          "name": "bi1",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "4c89R",
+                              "name": "bi1i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#16A34A",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "KhTHe",
+                              "name": "bi1t",
+                              "fill": "#14532D",
+                              "content": "Unified composable asset graph across organisations",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vhgdw",
+                          "name": "bi2",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "21kUT",
+                              "name": "bi2i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#16A34A",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "dRsod",
+                              "name": "bi2t",
+                              "fill": "#14532D",
+                              "content": "Automated compliance with verifiable audit trails",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9Jn0p",
+                          "name": "bi3",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "4cDbP",
+                              "name": "bi3i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#16A34A",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "10H8O",
+                              "name": "bi3t",
+                              "fill": "#14532D",
+                              "content": "Cryptographic trust between all participants",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y1DLx",
+                          "name": "bi4",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "VA8xQ",
+                              "name": "bi4i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#16A34A",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "y1Oey",
+                              "name": "bi4t",
+                              "fill": "#14532D",
+                              "content": "Verifiable, hierarchical bills of materials",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IdLYY",
+                          "name": "bi5",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Ja7jj",
+                              "name": "bi5i",
+                              "width": 6,
+                              "height": 6,
+                              "fill": "#16A34A",
+                              "cornerRadius": 3
+                            },
+                            {
+                              "type": "text",
+                              "id": "p8ziF",
+                              "name": "bi5t",
+                              "fill": "#14532D",
+                              "content": "Complete lifecycle provenance for every asset",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 15
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "m43Fs",
+          "name": "Solution Section",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aW1w3",
+              "name": "solHeader",
+              "width": 750,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ld3S9",
+                  "name": "solLabel",
+                  "fill": "$accent-blue-light",
+                  "content": "THE SOLUTION",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "XKUsU",
+                  "name": "solHeadline",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": 750,
+                  "content": "From Flat Records to Composable Asset Graphs",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "okczd",
+                  "name": "solSub",
+                  "fill": "$text-white-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "A real-world asset becomes a root token. Each certificate, component, or document is a sub-token. Each sub-token can itself contain sub-tokens — forming a verifiable, composable structure.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jvJx6",
+              "name": "examplesRow",
+              "width": "fill_container",
+              "gap": 32,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Pttwa",
+                  "name": "houseCard",
+                  "width": 580,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tKFXC",
+                      "name": "houseTitle",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "nq8kr",
+                          "name": "houseTitleIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "house",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4OPF5",
+                          "name": "houseTitleText",
+                          "fill": "$text-white",
+                          "content": "Real Estate Example",
+                          "fontFamily": "Outfit",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XHGYD",
+                      "name": "houseTree",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "a8KQq",
+                          "name": "hRoot",
+                          "width": "fill_container",
+                          "fill": "$accent-blue",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "OmA6A",
+                              "name": "hRootIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "box",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "2iyT0",
+                              "name": "hRootText",
+                              "fill": "#FFFFFF",
+                              "content": "House Token",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mqhuU",
+                          "name": "hChild1",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "0D9Sc",
+                              "name": "hC1Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "S6ZOe",
+                              "name": "hC1Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Survey Token",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R5oSc",
+                          "name": "hChild2",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "cVB6X",
+                              "name": "hC2Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "zap",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bataC",
+                              "name": "hC2Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Electrical Certificate",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m0qPp",
+                          "name": "hChild3",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "i0Umq",
+                              "name": "hC3Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "wrench",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jdgd8",
+                              "name": "hC3Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Renovation Record",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "igQ0Q",
+                          "name": "hChild4",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "i4tCg",
+                              "name": "hC4Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "shield",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "g0cWI",
+                              "name": "hC4Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Insurance Policy",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fs4Yh",
+                  "name": "mfgCard",
+                  "width": 580,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VnywA",
+                      "name": "mfgTitle",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "u3uGq",
+                          "name": "mfgTitleIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "factory",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YzGmt",
+                          "name": "mfgTitleText",
+                          "fill": "$text-white",
+                          "content": "Manufacturing Example",
+                          "fontFamily": "Outfit",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qRD16",
+                      "name": "mfgTree",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2Tv8Q",
+                          "name": "mRoot",
+                          "width": "fill_container",
+                          "fill": "$accent-blue",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "5hk8O",
+                              "name": "mRootIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "box",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            },
+                            {
+                              "type": "text",
+                              "id": "m9NU8",
+                              "name": "mRootText",
+                              "fill": "#FFFFFF",
+                              "content": "Finished Product",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "T3Za9",
+                          "name": "mC1",
+                          "width": "fill_container",
+                          "fill": "#1E3A5F40",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#2563EB30"
+                          },
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "3JJBD",
+                              "name": "mC1Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "package",
+                              "iconFontFamily": "lucide",
+                              "fill": "#60A5FA"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WJ4vn",
+                              "name": "mC1Text",
+                              "fill": "#93C5FD",
+                              "content": "Sub-Assembly A",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gufv6",
+                          "name": "mC1a",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            72
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "3WeWt",
+                              "name": "mC1aIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "cpu",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rS5uG",
+                              "name": "mC1aText",
+                              "fill": "$text-white-secondary",
+                              "content": "Component A1",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CCwFb",
+                          "name": "mC1b",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            72
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "LVq8s",
+                              "name": "mC1bIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "cpu",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "cODGX",
+                              "name": "mC1bText",
+                              "fill": "$text-white-secondary",
+                              "content": "Component A2",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lAz4j",
+                          "name": "mC2",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "E3qoS",
+                              "name": "mC2Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "badge-check",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EsCH2",
+                              "name": "mC2Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Quality Certificate",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vWOu7",
+                          "name": "mC3",
+                          "width": "fill_container",
+                          "fill": "#27272A",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            10,
+                            16,
+                            10,
+                            40
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Bw6IB",
+                              "name": "mC3Icon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "truck",
+                              "iconFontFamily": "lucide",
+                              "fill": "#3B82F6"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bbHyG",
+                              "name": "mC3Text",
+                              "fill": "$text-white-secondary",
+                              "content": "Shipping Manifest",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "plWN0",
+          "name": "How It Works",
+          "width": "fill_container",
+          "fill": "$bg-light",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WTu8m",
+              "name": "howHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vz9Yc",
+                  "name": "howLabel",
+                  "fill": "$accent-blue",
+                  "content": "HOW IT WORKS",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "jwLPv",
+                  "name": "howHeadline",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "A Layered Architecture Built for Enterprise",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "nm2Yz",
+                  "name": "howSub",
+                  "fill": "$text-dark-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "Five purpose-built layers work together to tokenise, anchor, and query your asset data — without replacing existing systems.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n4ueh",
+              "name": "archStack",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LShSP",
+                  "name": "layer5",
+                  "width": "fill_container",
+                  "height": 72,
+                  "fill": "#EFF6FF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#BFDBFE"
+                  },
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Pb6CF",
+                      "name": "l5Left",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wsNp3",
+                          "name": "l5Num",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "$accent-blue",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nepRg",
+                              "name": "l5NumT",
+                              "fill": "#FFFFFF",
+                              "content": "5",
+                              "fontFamily": "Outfit",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NAAwv",
+                          "name": "l5Title",
+                          "fill": "$text-dark",
+                          "content": "Query & Analytics Dashboard",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OC1YA",
+                      "name": "l5Desc",
+                      "fill": "$text-dark-tertiary",
+                      "content": "Real-time asset insights, dependency maps, lifecycle views",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DlJcv",
+                  "name": "layer4",
+                  "width": "fill_container",
+                  "height": 72,
+                  "fill": "#F0F9FF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#BAE6FD"
+                  },
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rwtp9",
+                      "name": "l4Left",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "5vM1m",
+                          "name": "l4Num",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#0284C7",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oyl7D",
+                              "name": "l4NumT",
+                              "fill": "#FFFFFF",
+                              "content": "4",
+                              "fontFamily": "Outfit",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "V7wPX",
+                          "name": "l4Title",
+                          "fill": "$text-dark",
+                          "content": "On-Chain Hash Anchoring",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sF2Sm",
+                      "name": "l4Desc",
+                      "fill": "$text-dark-tertiary",
+                      "content": "Immutable proof on any blockchain, chain-agnostic",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d572V",
+                  "name": "layer3",
+                  "width": "fill_container",
+                  "height": 72,
+                  "fill": "#F5F3FF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DDD6FE"
+                  },
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WZBUH",
+                      "name": "l3Left",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wNbLn",
+                          "name": "l3Num",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#7C3AED",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dhV03",
+                              "name": "l3NumT",
+                              "fill": "#FFFFFF",
+                              "content": "3",
+                              "fontFamily": "Outfit",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "4AkYv",
+                          "name": "l3Title",
+                          "fill": "$text-dark",
+                          "content": "Off-Chain Indexed Data Layer",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "4TPEV",
+                      "name": "l3Desc",
+                      "fill": "$text-dark-tertiary",
+                      "content": "Structured storage, fast retrieval, selective disclosure",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hVeBt",
+                  "name": "layer2",
+                  "width": "fill_container",
+                  "height": 72,
+                  "fill": "#FFF7ED",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FED7AA"
+                  },
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kMB0Q",
+                      "name": "l2Left",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xKHxB",
+                          "name": "l2Num",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#EA580C",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "evo8P",
+                              "name": "l2NumT",
+                              "fill": "#FFFFFF",
+                              "content": "2",
+                              "fontFamily": "Outfit",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tcXv5",
+                          "name": "l2Title",
+                          "fill": "$text-dark",
+                          "content": "Tokenisation Engine",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "s8oku",
+                      "name": "l2Desc",
+                      "fill": "$text-dark-tertiary",
+                      "content": "Hierarchical token pack creation, versioning, composition",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cbjH6",
+                  "name": "layer1",
+                  "width": "fill_container",
+                  "height": 72,
+                  "fill": "#F0FDF4",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#BBF7D0"
+                  },
+                  "padding": [
+                    0,
+                    28
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Xiuqq",
+                      "name": "l1Left",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rIOSf",
+                          "name": "l1Num",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#16A34A",
+                          "cornerRadius": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kAy5i",
+                              "name": "l1NumT",
+                              "fill": "#FFFFFF",
+                              "content": "1",
+                              "fontFamily": "Outfit",
+                              "fontSize": 16,
+                              "fontWeight": "800"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Nd4PW",
+                          "name": "l1Title",
+                          "fill": "$text-dark",
+                          "content": "Integration Layer",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yNNQH",
+                      "name": "l1Desc",
+                      "fill": "$text-dark-tertiary",
+                      "content": "REST APIs, ERP connectors, webhooks, batch import",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g2Rmd",
+          "name": "Why It Matters",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "eTKD1",
+              "name": "whyHeader",
+              "width": 750,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kYERo",
+                  "name": "whyLabel",
+                  "fill": "$accent-blue-light",
+                  "content": "WHY IT MATTERS",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "w8jQz",
+                  "name": "whyHeadline",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": 750,
+                  "content": "Why Hierarchical Token Packs Matter",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VX3CS",
+              "name": "whyGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8d8DA",
+                  "name": "wp1",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "0R8P6",
+                      "name": "wp1Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "git-branch",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-blue-light"
+                    },
+                    {
+                      "type": "text",
+                      "id": "igbOv",
+                      "name": "wp1Title",
+                      "fill": "$text-white",
+                      "content": "Recursive Provenance",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RWlaF",
+                      "name": "wp1Desc",
+                      "fill": "$text-white-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trace any component back through its full history, across every level of assembly.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k8mh2",
+                  "name": "wp2",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "FzyUQ",
+                      "name": "wp2Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "shield",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-blue-light"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rrVge",
+                      "name": "wp2Title",
+                      "fill": "$text-white",
+                      "content": "Verifiable BOM",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fgY6m",
+                      "name": "wp2Desc",
+                      "fill": "$text-white-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cryptographically verify every bill of materials down to the component level.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "khhId",
+                  "name": "wp3",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "jm7WG",
+                      "name": "wp3Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "target",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-blue-light"
+                    },
+                    {
+                      "type": "text",
+                      "id": "76JeZ",
+                      "name": "wp3Title",
+                      "fill": "$text-white",
+                      "content": "Component-Level Recall",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "2XQxF",
+                      "name": "wp3Desc",
+                      "fill": "$text-white-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Identify and isolate affected assets instantly when a component is recalled.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bdp45",
+              "name": "whyRow2",
+              "width": "fill_container",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sJOol",
+                  "name": "wp4",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "6bFYk",
+                      "name": "wp4Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "history",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-blue-light"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fAHet",
+                      "name": "wp4Title",
+                      "fill": "$text-white",
+                      "content": "Full Lifecycle Versioning",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cOOOa",
+                      "name": "wp4Desc",
+                      "fill": "$text-white-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every change to an asset or sub-token is versioned, timestamped, and immutable.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RDcYB",
+                  "name": "wp5",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "eupBc",
+                      "name": "wp5Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "badge-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-blue-light"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ABSvS",
+                      "name": "wp5Title",
+                      "fill": "$text-white",
+                      "content": "Audit-Ready Assets",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "h3BG3",
+                      "name": "wp5Desc",
+                      "fill": "$text-white-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Generate compliance reports instantly with cryptographic proof of every claim.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oApOI",
+          "name": "Use Cases",
+          "width": "fill_container",
+          "fill": "$bg-light",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4Jwv6",
+              "name": "ucHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2fP2V",
+                  "name": "ucLabel",
+                  "fill": "$accent-blue",
+                  "content": "USE CASES",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "SzT5L",
+                  "name": "ucHeadline",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Built for Asset-Heavy Industries",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "i1639",
+                  "name": "ucSub",
+                  "fill": "$text-dark-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "From factory floors to property portfolios — composable token infrastructure adapts to your domain.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Thkl9",
+              "name": "ucGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jPvSw",
+                  "name": "uc1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i6iuI",
+                      "name": "uc1Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#EFF6FF",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "gbx7x",
+                          "name": "uc1IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "factory",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TVXaY",
+                      "name": "uc1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "kedige",
+                        "link": "https://unsplash.com/@kedige",
+                        "author": "Vasanth Kedige"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1699799678681-3c156c3c5553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA4ODcyNDB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "f72ks",
+                      "name": "uc1Title",
+                      "fill": "$text-dark",
+                      "content": "Manufacturing",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MfxwQ",
+                      "name": "uc1Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Track sub-assemblies, components, and certifications across complex production lines.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MAIuP",
+                  "name": "uc2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NybVL",
+                      "name": "uc2Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F0FDF4",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hNEST",
+                          "name": "uc2IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "building-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "#16A34A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n9Gdg",
+                      "name": "uc2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "thiskid",
+                        "link": "https://unsplash.com/@thiskid",
+                        "author": "Erika Gonzales"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887328156.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "eeYs3",
+                      "name": "uc2Title",
+                      "fill": "$text-dark",
+                      "content": "Real Estate",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0NDIN",
+                      "name": "uc2Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Compose property tokens from surveys, certificates, and renovation records.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HGHn1",
+                  "name": "uc3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7lRND",
+                      "name": "uc3Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FEF2F2",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "AYZuu",
+                          "name": "uc3IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "pill",
+                          "iconFontFamily": "lucide",
+                          "fill": "#DC2626"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YfrkS",
+                      "name": "uc3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "harpreetkaka",
+                        "link": "https://unsplash.com/@harpreetkaka",
+                        "author": "Harpreet Singh"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887334485.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "1GzZ3",
+                      "name": "uc3Title",
+                      "fill": "$text-dark",
+                      "content": "Pharmaceuticals",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QndEE",
+                      "name": "uc3Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Full chain-of-custody from raw material to patient delivery with regulatory compliance.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LwOTy",
+                  "name": "uc4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "001ws",
+                      "name": "uc4Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#FFF7ED",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "wdIpb",
+                          "name": "uc4IconInner",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "leaf",
+                          "iconFontFamily": "lucide",
+                          "fill": "#EA580C"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FlQB9",
+                      "name": "uc4Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "musiua",
+                        "link": "https://unsplash.com/@musiua",
+                        "author": "Andrea Junqueira"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 140,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1598480879950-0b385db5310e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzA4ODcyNDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "kFMYC",
+                      "name": "uc4Title",
+                      "fill": "$text-dark",
+                      "content": "Energy & Carbon",
+                      "fontFamily": "Outfit",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kwlRK",
+                      "name": "uc4Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Verifiable carbon credits and energy asset provenance with embedded compliance.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fhxw3",
+          "name": "Product Experience",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qWd6h",
+              "name": "prodHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pVFj8",
+                  "name": "prodLabel",
+                  "fill": "$accent-blue-light",
+                  "content": "PRODUCT",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "oXvIl",
+                  "name": "prodHeadline",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Enterprise-Grade Asset Intelligence",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "nCRXP",
+                  "name": "prodSub",
+                  "fill": "$text-white-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "A modern SaaS dashboard built for data-heavy workflows. Explore asset graphs, track lifecycles, and monitor certifications in real time.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q0loU",
+              "name": "prodGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ePQvN",
+                  "name": "prod1",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eFtAw",
+                      "name": "prod1Label",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "G0mwl",
+                          "name": "prod1LIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "network",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qx5ev",
+                          "name": "prod1LText",
+                          "fill": "$text-white",
+                          "content": "Asset Graph Explorer",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qeAnp",
+                      "name": "prod1Placeholder",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887209909.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GCJ4s",
+                  "name": "prod2",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SkKfh",
+                      "name": "prod2Label",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "7Iztl",
+                          "name": "prod2LIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "calendar-days",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n726P",
+                          "name": "prod2LText",
+                          "fill": "$text-white",
+                          "content": "Timeline View",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dLEYZ",
+                      "name": "prod2Placeholder",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887216404.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AJ57b",
+              "name": "prodRow2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JXq5p",
+                  "name": "prod3",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "iQ8uT",
+                      "name": "prod3Label",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Ij29S",
+                          "name": "prod3LIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "git-merge",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cLxh9",
+                          "name": "prod3LText",
+                          "fill": "$text-white",
+                          "content": "Component Dependency Map",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TggXJ",
+                      "name": "prod3Placeholder",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887222580.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ji8ke",
+                  "name": "prod4",
+                  "width": "fill_container",
+                  "height": 280,
+                  "fill": "#18181B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QCStE",
+                      "name": "prod4Label",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "G1GQv",
+                          "name": "prod4LIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "bell",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QWAD7",
+                          "name": "prod4LText",
+                          "fill": "$text-white",
+                          "content": "Certification Validity Alerts",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ea57l",
+                      "name": "prod4Placeholder",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1770887229588.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "I88iA",
+          "name": "Security & Trust",
+          "width": "fill_container",
+          "fill": "$bg-light",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tzMv0",
+              "name": "secHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X0TYW",
+                  "name": "secLabel",
+                  "fill": "$accent-blue",
+                  "content": "SECURITY",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "JRPaJ",
+                  "name": "secHeadline",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Built for Enterprise Trust",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "YF7fT",
+                  "name": "secSub",
+                  "fill": "$text-dark-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "Security isn't a feature — it's the foundation. Every layer is designed for zero-trust environments and regulatory compliance.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dGrPd",
+              "name": "secGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2H4av",
+                  "name": "sec1",
+                  "width": "fill_container",
+                  "fill": "#F4F4F5",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E4E4E7"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "V4mBR",
+                      "name": "sec1Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "lock",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3d9UK",
+                      "name": "sec1Title",
+                      "fill": "$text-dark",
+                      "content": "Cryptographic Integrity",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ltYPN",
+                      "name": "sec1Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every token and sub-token is hash-verified and tamper-evident.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "guvi8",
+                  "name": "sec2",
+                  "width": "fill_container",
+                  "fill": "#F4F4F5",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E4E4E7"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "7L7nx",
+                      "name": "sec2Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "eye-off",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r7vgM",
+                      "name": "sec2Title",
+                      "fill": "$text-dark",
+                      "content": "Selective Disclosure",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "T6g4b",
+                      "name": "sec2Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Share only what's needed. Control visibility at the sub-token level.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v4A75",
+                  "name": "sec3",
+                  "width": "fill_container",
+                  "fill": "#F4F4F5",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E4E4E7"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "quTEs",
+                      "name": "sec3Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "users",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9FVOs",
+                      "name": "sec3Title",
+                      "fill": "$text-dark",
+                      "content": "Role-Based Permissions",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m4ysU",
+                      "name": "sec3Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Granular access control across organisations, teams, and asset types.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EYcAm",
+                  "name": "sec4",
+                  "width": "fill_container",
+                  "fill": "#F4F4F5",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E4E4E7"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "UQO4c",
+                      "name": "sec4Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HIGKV",
+                      "name": "sec4Title",
+                      "fill": "$text-dark",
+                      "content": "Chain-Agnostic",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mllgD",
+                      "name": "sec4Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Anchor to any blockchain. No vendor lock-in. Future-proof architecture.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YQMHl",
+                  "name": "sec5",
+                  "width": "fill_container",
+                  "fill": "#F4F4F5",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E4E4E7"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "i2PlZ",
+                      "name": "sec5Icon",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "server",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-dark"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZuCxY",
+                      "name": "sec5Title",
+                      "fill": "$text-dark",
+                      "content": "Hybrid Model",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "coUAR",
+                      "name": "sec5Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sensitive data stays off-chain. Only hashes are anchored on-chain for verification.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9easd",
+          "name": "Enterprise Platform",
+          "width": "fill_container",
+          "fill": "$bg-dark",
+          "gap": 80,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "KXwDV",
+              "name": "bizLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qqGEZ",
+                  "name": "bizLabel",
+                  "fill": "$accent-blue-light",
+                  "content": "ENTERPRISE PLATFORM",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ikhaG",
+                  "name": "bizHeadline",
+                  "fill": "$text-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Infrastructure, Not Just Software",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Outfit",
+                  "fontSize": 44,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "zHnC1",
+                  "name": "bizDesc",
+                  "fill": "$text-white-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "BlockTrace is a platform, not a point solution. Deploy as SaaS or on-premise. Integrate via API. Scale across your entire asset portfolio.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8RYil",
+              "name": "bizRight",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OVDgh",
+                  "name": "biz1",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GbkW6",
+                      "name": "biz1Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "qf7QA",
+                          "name": "biz1IconI",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "credit-card",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AzZ9Y",
+                      "name": "biz1Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AioMg",
+                          "name": "biz1Title",
+                          "fill": "$text-white",
+                          "content": "SaaS Subscription",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VQPOJ",
+                          "name": "biz1Desc",
+                          "fill": "$text-white-tertiary",
+                          "content": "Usage-based pricing that scales with your asset volume.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZmVCA",
+                  "name": "biz2",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U7Vp2",
+                      "name": "biz2Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "L63jx",
+                          "name": "biz2IconI",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "code",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vdXie",
+                      "name": "biz2Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kV0ZF",
+                          "name": "biz2Title",
+                          "fill": "$text-white",
+                          "content": "API-First Platform",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a2cMw",
+                          "name": "biz2Desc",
+                          "fill": "$text-white-tertiary",
+                          "content": "RESTful APIs and SDKs for seamless integration.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7hXEJ",
+                  "name": "biz3",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VgO6M",
+                      "name": "biz3Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "2X9lD",
+                          "name": "biz3IconI",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "building-2",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pAcet",
+                      "name": "biz3Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3tP02",
+                          "name": "biz3Title",
+                          "fill": "$text-white",
+                          "content": "Enterprise Deployment",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OVtr8",
+                          "name": "biz3Desc",
+                          "fill": "$text-white-tertiary",
+                          "content": "On-premise, private cloud, or hybrid deployment options.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m40Y7",
+                  "name": "biz4",
+                  "width": "fill_container",
+                  "fill": "#18181B",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272A"
+                  },
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3o06i",
+                      "name": "biz4Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "RgfeR",
+                          "name": "biz4IconI",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "globe",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7CCLq",
+                      "name": "biz4Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "THSvv",
+                          "name": "biz4Title",
+                          "fill": "$text-white",
+                          "content": "Private Network Support",
+                          "fontFamily": "Outfit",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xMDxy",
+                          "name": "biz4Desc",
+                          "fill": "$text-white-tertiary",
+                          "content": "Run isolated networks for sensitive supply chains.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D7Rwu",
+          "name": "Vision",
+          "width": "fill_container",
+          "fill": "$bg-light",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            100,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zHeLo",
+              "name": "visionHeader",
+              "width": 750,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hveWI",
+                  "name": "visionLabel",
+                  "fill": "$accent-blue",
+                  "content": "VISION",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "hRXAV",
+                  "name": "visionHeadline",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 750,
+                  "content": "Version Control for Physical Assets",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "iZwCZ",
+                  "name": "visionSub",
+                  "fill": "$text-dark-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "We're building the provenance layer for the physical world. A future where every asset has a verifiable, composable digital twin.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6a8gT",
+              "name": "visionGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B2pNt",
+                  "name": "v1",
+                  "width": "fill_container",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Kj64H",
+                      "name": "v1Num",
+                      "fill": "#E4E4E7",
+                      "content": "01",
+                      "fontFamily": "Outfit",
+                      "fontSize": 36,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gQQuQ",
+                      "name": "v1Title",
+                      "fill": "$text-dark",
+                      "content": "Global Asset Provenance Layer",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XjjQK",
+                      "name": "v1Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A universal registry of verifiable asset histories across industries and borders.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NhOHy",
+                  "name": "v2",
+                  "width": "fill_container",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tDHln",
+                      "name": "v2Num",
+                      "fill": "#E4E4E7",
+                      "content": "02",
+                      "fontFamily": "Outfit",
+                      "fontSize": 36,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "53RJ6",
+                      "name": "v2Title",
+                      "fill": "$text-dark",
+                      "content": "Embedded Finance Enablement",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i01fU",
+                      "name": "v2Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tokenised assets become programmable collateral for lending, insurance, and trade finance.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hxfJj",
+                  "name": "v3",
+                  "width": "fill_container",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sMYH1",
+                      "name": "v3Num",
+                      "fill": "#E4E4E7",
+                      "content": "03",
+                      "fontFamily": "Outfit",
+                      "fontSize": 36,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "czYUT",
+                      "name": "v3Title",
+                      "fill": "$text-dark",
+                      "content": "Automated Compliance",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BZGxI",
+                      "name": "v3Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Regulatory reporting generated automatically from verifiable asset data.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zHOqp",
+                  "name": "v4",
+                  "width": "fill_container",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ybhBX",
+                      "name": "v4Num",
+                      "fill": "#E4E4E7",
+                      "content": "04",
+                      "fontFamily": "Outfit",
+                      "fontSize": 36,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EAg4h",
+                      "name": "v4Title",
+                      "fill": "$text-dark",
+                      "content": "Cross-Industry Composability",
+                      "fontFamily": "Outfit",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nRzFg",
+                      "name": "v4Desc",
+                      "fill": "$text-dark-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Token packs from one industry interoperate with token packs from another.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uRc5R",
+          "name": "Final CTA",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#09090B",
+                "position": 0
+              },
+              {
+                "color": "#0F172A",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            120,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qI7z2",
+              "name": "ctaHeadline",
+              "fill": "$text-white",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "Build Trust Into Your Assets.",
+              "lineHeight": 1.1,
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 56,
+              "fontWeight": "800",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "CsPXp",
+              "name": "ctaSubline",
+              "fill": "$text-white-secondary",
+              "textGrowth": "fixed-width",
+              "width": 550,
+              "content": "Join the enterprises already building verifiable asset infrastructure with BlockTrace.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18
+            },
+            {
+              "type": "frame",
+              "id": "OEUeh",
+              "name": "ctaBtns",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iyis2",
+                  "name": "ctaPrimary",
+                  "fill": "$accent-blue",
+                  "cornerRadius": 10,
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GJlwA",
+                      "name": "ctaPrimaryT",
+                      "fill": "#FFFFFF",
+                      "content": "Request Demo",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "4bXZ9",
+                      "name": "ctaPrimaryI",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CUw2F",
+                  "name": "ctaSecondary",
+                  "cornerRadius": 10,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#3F3F46"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "llPxw",
+                      "name": "ctaSecondaryT",
+                      "fill": "$text-white-secondary",
+                      "content": "Download Whitepaper",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "YjTt7",
+                      "name": "ctaSecondaryI",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "download",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-white-tertiary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FLfIx",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#09090B",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#18181B"
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80,
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "kqEm2",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kIHYa",
+                  "name": "footerBrand",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Mr7Ow",
+                      "name": "footerLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LePZg",
+                          "name": "footerLogoIcon",
+                          "width": 28,
+                          "height": 28,
+                          "fill": "$accent-blue",
+                          "cornerRadius": 7,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "V2XnS",
+                              "x": 4,
+                              "y": 4,
+                              "name": "footerLogoInner",
+                              "width": 12,
+                              "height": 12,
+                              "fill": "#FFFFFF30",
+                              "cornerRadius": 3
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "3uFXa",
+                          "name": "footerLogoText",
+                          "fill": "$text-white",
+                          "content": "BlockTrace",
+                          "fontFamily": "Outfit",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VKfpe",
+                      "name": "footerTagline",
+                      "fill": "$text-white-tertiary",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Composable token infrastructure for real-world asset traceability.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PY6Qs",
+                  "name": "footerLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZTokR",
+                      "name": "footerCol1",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "boutb",
+                          "name": "fc1Title",
+                          "fill": "$text-white",
+                          "content": "Product",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NLiOa",
+                          "name": "fc1L1",
+                          "fill": "$text-white-tertiary",
+                          "content": "Platform",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "Xeek0",
+                          "name": "fc1L2",
+                          "fill": "$text-white-tertiary",
+                          "content": "Architecture",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "F9Q6L",
+                          "name": "fc1L3",
+                          "fill": "$text-white-tertiary",
+                          "content": "API Docs",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "bLOYx",
+                          "name": "fc1L4",
+                          "fill": "$text-white-tertiary",
+                          "content": "Pricing",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9eplm",
+                      "name": "footerCol2",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bQcWI",
+                          "name": "fc2Title",
+                          "fill": "$text-white",
+                          "content": "Company",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eVe9K",
+                          "name": "fc2L1",
+                          "fill": "$text-white-tertiary",
+                          "content": "About",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "Tefsd",
+                          "name": "fc2L2",
+                          "fill": "$text-white-tertiary",
+                          "content": "Blog",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "dHKp2",
+                          "name": "fc2L3",
+                          "fill": "$text-white-tertiary",
+                          "content": "Careers",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "tCCwz",
+                          "name": "fc2L4",
+                          "fill": "$text-white-tertiary",
+                          "content": "Contact",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vAmgw",
+                      "name": "footerCol3",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LV8uL",
+                          "name": "fc3Title",
+                          "fill": "$text-white",
+                          "content": "Resources",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M5lWG",
+                          "name": "fc3L1",
+                          "fill": "$text-white-tertiary",
+                          "content": "Whitepaper",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "umORU",
+                          "name": "fc3L2",
+                          "fill": "$text-white-tertiary",
+                          "content": "Case Studies",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "sPjXi",
+                          "name": "fc3L3",
+                          "fill": "$text-white-tertiary",
+                          "content": "Documentation",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "LPBa0",
+                          "name": "fc3L4",
+                          "fill": "$text-white-tertiary",
+                          "content": "Changelog",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IJRl6",
+                      "name": "footerCol4",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B9XqX",
+                          "name": "fc4Title",
+                          "fill": "$text-white",
+                          "content": "Legal",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UbBPG",
+                          "name": "fc4L1",
+                          "fill": "$text-white-tertiary",
+                          "content": "Privacy Policy",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ej40x",
+                          "name": "fc4L2",
+                          "fill": "$text-white-tertiary",
+                          "content": "Terms of Service",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        },
+                        {
+                          "type": "text",
+                          "id": "77eJU",
+                          "name": "fc4L3",
+                          "fill": "$text-white-tertiary",
+                          "content": "Security",
+                          "fontFamily": "Inter",
+                          "fontSize": 13
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "khNAg",
+              "name": "footerDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#18181B"
+            },
+            {
+              "type": "frame",
+              "id": "mLAou",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EgcQw",
+                  "name": "footerCopy",
+                  "fill": "#3F3F46",
+                  "content": "© 2025 BlockTrace. All rights reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "dyFof",
+                  "name": "footerSocials",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yDCdb",
+                      "name": "socialX",
+                      "fill": "#52525B",
+                      "content": "X",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "obHMv",
+                      "name": "socialLi",
+                      "fill": "#52525B",
+                      "content": "LinkedIn",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0Ghz5",
+                      "name": "socialGh",
+                      "fill": "#52525B",
+                      "content": "GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-blue": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "accent-blue-hover": {
+      "type": "color",
+      "value": "#1D4ED8"
+    },
+    "accent-blue-light": {
+      "type": "color",
+      "value": "#3B82F6"
+    },
+    "accent-glow": {
+      "type": "color",
+      "value": "#2563EB20"
+    },
+    "bg-dark": {
+      "type": "color",
+      "value": "#09090B"
+    },
+    "bg-dark-card": {
+      "type": "color",
+      "value": "#27272A"
+    },
+    "bg-dark-elevated": {
+      "type": "color",
+      "value": "#18181B"
+    },
+    "bg-light": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "bg-light-card": {
+      "type": "color",
+      "value": "#FAFAFA"
+    },
+    "bg-light-surface": {
+      "type": "color",
+      "value": "#F4F4F5"
+    },
+    "border-dark": {
+      "type": "color",
+      "value": "#27272A"
+    },
+    "border-light": {
+      "type": "color",
+      "value": "#E4E4E7"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Outfit"
+    },
+    "text-dark": {
+      "type": "color",
+      "value": "#09090B"
+    },
+    "text-dark-secondary": {
+      "type": "color",
+      "value": "#52525B"
+    },
+    "text-dark-tertiary": {
+      "type": "color",
+      "value": "#A1A1AA"
+    },
+    "text-white": {
+      "type": "color",
+      "value": "#FAFAFA"
+    },
+    "text-white-secondary": {
+      "type": "color",
+      "value": "#A1A1AA"
+    },
+    "text-white-tertiary": {
+      "type": "color",
+      "value": "#71717A"
+    }
+  }
+}
