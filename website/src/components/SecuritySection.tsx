@@ -30,53 +30,57 @@ const securityCards = [
 
 export default function SecuritySection() {
   return (
-    <section className="flex flex-col items-center gap-16 w-full px-20 py-[100px] bg-[var(--bg-light)]">
+    <section className="flex flex-col items-center gap-10 md:gap-16 w-full px-5 sm:px-8 lg:px-20 py-16 md:py-[100px] bg-[var(--bg-light)]">
       {/* Header */}
-      <div className="flex flex-col items-center gap-5 max-w-[700px]">
+      <div className="flex flex-col items-center gap-4 md:gap-5 max-w-[700px]">
         <span className="text-xs font-semibold text-[var(--accent-blue)] tracking-[2px]">
           SECURITY
         </span>
-        <h2 className="font-display text-5xl font-extrabold text-[var(--text-dark)] text-center tracking-[-1.5px]">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--text-dark)] text-center tracking-[-1px] md:tracking-[-1.5px]">
           Built for Enterprise Trust
         </h2>
-        <p className="text-lg text-[var(--text-dark-secondary)] text-center leading-[1.6] max-w-[620px]">
+        <p className="text-base md:text-lg text-[var(--text-dark-secondary)] text-center leading-[1.6] max-w-[620px]">
           Security isn&apos;t a feature — it&apos;s the foundation. Every layer
           is designed for zero-trust environments and regulatory compliance.
         </p>
       </div>
 
-      {/* Cards Grid */}
-      <div className="grid grid-cols-3 gap-5 w-full">
-        {securityCards.slice(0, 3).map((card) => (
-          <div
-            key={card.title}
-            className="flex flex-col gap-3.5 p-7 rounded-xl bg-[var(--bg-light-surface)] border border-[var(--border-light)]"
-          >
-            {card.icon}
-            <span className="font-display text-base font-bold text-[var(--text-dark)]">
-              {card.title}
-            </span>
-            <p className="text-[13px] text-[var(--text-dark-secondary)] leading-[1.5]">
-              {card.desc}
-            </p>
-          </div>
-        ))}
-      </div>
-      <div className="grid grid-cols-2 gap-5 w-full -mt-11">
-        {securityCards.slice(3).map((card) => (
-          <div
-            key={card.title}
-            className="flex flex-col gap-3.5 p-7 rounded-xl bg-[var(--bg-light-surface)] border border-[var(--border-light)]"
-          >
-            {card.icon}
-            <span className="font-display text-base font-bold text-[var(--text-dark)]">
-              {card.title}
-            </span>
-            <p className="text-[13px] text-[var(--text-dark-secondary)] leading-[1.5]">
-              {card.desc}
-            </p>
-          </div>
-        ))}
+      {/* Cards - Brick layout on large screens, responsive grid on smaller */}
+      <div className="flex flex-col gap-5 w-full">
+        {/* Row 1: 3 cards on lg */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 w-full">
+          {securityCards.slice(0, 3).map((card) => (
+            <div
+              key={card.title}
+              className="flex flex-col gap-3.5 p-6 md:p-7 rounded-xl bg-[var(--bg-light-surface)] border border-[var(--border-light)]"
+            >
+              {card.icon}
+              <span className="font-display text-base font-bold text-[var(--text-dark)]">
+                {card.title}
+              </span>
+              <p className="text-[13px] text-[var(--text-dark-secondary)] leading-[1.5]">
+                {card.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+        {/* Row 2: 2 cards centered on lg */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full lg:w-2/3 lg:mx-auto">
+          {securityCards.slice(3).map((card) => (
+            <div
+              key={card.title}
+              className="flex flex-col gap-3.5 p-6 md:p-7 rounded-xl bg-[var(--bg-light-surface)] border border-[var(--border-light)]"
+            >
+              {card.icon}
+              <span className="font-display text-base font-bold text-[var(--text-dark)]">
+                {card.title}
+              </span>
+              <p className="text-[13px] text-[var(--text-dark-secondary)] leading-[1.5]">
+                {card.desc}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

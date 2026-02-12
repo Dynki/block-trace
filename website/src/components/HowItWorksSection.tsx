@@ -43,16 +43,16 @@ const layers = [
 
 export default function HowItWorksSection() {
   return (
-    <section className="flex flex-col items-center gap-16 w-full px-20 py-[100px] bg-[var(--bg-light)]">
+    <section className="flex flex-col items-center gap-10 md:gap-16 w-full px-5 sm:px-8 lg:px-20 py-16 md:py-[100px] bg-[var(--bg-light)]">
       {/* Header */}
-      <div className="flex flex-col items-center gap-5 max-w-[700px]">
+      <div className="flex flex-col items-center gap-4 md:gap-5 max-w-[700px]">
         <span className="text-xs font-semibold text-[var(--accent-blue)] tracking-[2px]">
           HOW IT WORKS
         </span>
-        <h2 className="font-display text-5xl font-extrabold text-[var(--text-dark)] text-center tracking-[-1.5px]">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--text-dark)] text-center tracking-[-1px] md:tracking-[-1.5px]">
           A Layered Architecture Built for Enterprise
         </h2>
-        <p className="text-lg text-[var(--text-dark-secondary)] text-center leading-[1.6] max-w-[620px]">
+        <p className="text-base md:text-lg text-[var(--text-dark-secondary)] text-center leading-[1.6] max-w-[620px]">
           Five purpose-built layers work together to tokenise, anchor, and query
           your asset data — without replacing existing systems.
         </p>
@@ -63,21 +63,21 @@ export default function HowItWorksSection() {
         {layers.map((layer) => (
           <div
             key={layer.num}
-            className={`flex items-center justify-between h-[72px] w-full px-7 rounded-xl ${layer.bg} border ${layer.border}`}
+            className={`flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4 min-h-[72px] w-full px-4 sm:px-7 py-3 sm:py-0 rounded-xl ${layer.bg} border ${layer.border}`}
           >
-            <div className="flex items-center gap-3.5">
+            <div className="flex items-center gap-3 sm:gap-3.5">
               <div
-                className={`flex items-center justify-center w-9 h-9 rounded-lg ${layer.numBg}`}
+                className={`flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg shrink-0 ${layer.numBg}`}
               >
-                <span className="font-display text-base font-extrabold text-white">
+                <span className="font-display text-sm sm:text-base font-extrabold text-white">
                   {layer.num}
                 </span>
               </div>
-              <span className="font-display text-base font-bold text-[var(--text-dark)]">
+              <span className="font-display text-sm sm:text-base font-bold text-[var(--text-dark)]">
                 {layer.title}
               </span>
             </div>
-            <span className="text-[13px] text-[var(--text-dark-tertiary)]">
+            <span className="text-xs sm:text-[13px] text-[var(--text-dark-tertiary)] sm:text-right pl-11 sm:pl-0">
               {layer.desc}
             </span>
           </div>

@@ -16,7 +16,7 @@ const trustLogos = ["Siemens", "Maersk", "JLL", "Deloitte", "BASF"];
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col items-center gap-12 w-full px-20 pt-[100px] pb-20 bg-[radial-gradient(ellipse_150%_150%_at_50%_30%,#1E3A5F30_0%,#09090B_100%)]">
+    <section className="flex flex-col items-center gap-8 md:gap-12 w-full px-5 sm:px-8 lg:px-20 pt-16 md:pt-[100px] pb-12 md:pb-20 bg-[radial-gradient(ellipse_150%_150%_at_50%_30%,#1E3A5F30_0%,#09090B_100%)]">
       {/* Badge */}
       <div className="flex items-center gap-2 px-4 py-1.5 rounded-[20px] border border-[var(--border-dark)]">
         <div className="w-1.5 h-1.5 rounded-full bg-[#22C55E]" />
@@ -26,11 +26,11 @@ export default function HeroSection() {
       </div>
 
       {/* Headline */}
-      <div className="flex flex-col items-center gap-6 max-w-[900px]">
-        <h1 className="font-display text-[64px] font-extrabold text-[var(--text-white)] text-center leading-[1.05] tracking-[-2px]">
+      <div className="flex flex-col items-center gap-4 md:gap-6 max-w-[900px]">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-[64px] font-extrabold text-[var(--text-white)] text-center leading-[1.1] md:leading-[1.05] tracking-[-1px] md:tracking-[-2px]">
           Composable Token Infrastructure for Real-World Assets
         </h1>
-        <p className="text-xl text-[#A1A1AA] text-center leading-[1.6] max-w-[680px]">
+        <p className="text-base sm:text-lg md:text-xl text-[#A1A1AA] text-center leading-[1.6] max-w-[680px]">
           Turn physical assets into verifiable digital structures with complete
           lifecycle traceability. From manufacturing to real estate — one
           composable layer.
@@ -38,17 +38,17 @@ export default function HeroSection() {
       </div>
 
       {/* CTA Buttons */}
-      <div className="flex items-center gap-4">
+      <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full sm:w-auto">
         <a
           href="#"
-          className="flex items-center gap-2 px-7 py-3.5 rounded-[10px] bg-[var(--accent-blue)] hover:bg-[var(--accent-blue-hover)] transition-colors"
+          className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-[10px] bg-[var(--accent-blue)] hover:bg-[var(--accent-blue-hover)] transition-colors"
         >
           <span className="text-base font-semibold text-white">Request Demo</span>
           <ArrowRight className="w-[18px] h-[18px] text-white" />
         </a>
         <a
           href="#"
-          className="flex items-center gap-2 px-7 py-3.5 rounded-[10px] border border-[#3F3F46] hover:border-[#52525B] transition-colors"
+          className="flex items-center justify-center gap-2 w-full sm:w-auto px-7 py-3.5 rounded-[10px] border border-[#3F3F46] hover:border-[#52525B] transition-colors"
         >
           <span className="text-base font-medium text-[var(--text-white-secondary)]">
             View Architecture
@@ -58,7 +58,7 @@ export default function HeroSection() {
       </div>
 
       {/* Token Visualization */}
-      <div className="relative w-[800px] h-[280px] rounded-2xl border border-[#1E1E24] overflow-hidden bg-[var(--bg-dark)]">
+      <div className="relative w-full max-w-[800px] h-[280px] rounded-2xl border border-[#1E1E24] overflow-hidden bg-[var(--bg-dark)] hidden md:block">
         {/* Background image */}
         <img
           src="/images/generated-1770887264229.png"
@@ -112,11 +112,11 @@ export default function HeroSection() {
         <span className="text-[11px] font-semibold text-[#52525B] tracking-[2px]">
           TRUSTED BY ENTERPRISE TEAMS
         </span>
-        <div className="flex items-center justify-center gap-12 w-full">
+        <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-12 w-full">
           {trustLogos.map((logo) => (
             <span
               key={logo}
-              className="font-display text-lg font-bold text-[#52525B]"
+              className="font-display text-base sm:text-lg font-bold text-[#52525B]"
             >
               {logo}
             </span>

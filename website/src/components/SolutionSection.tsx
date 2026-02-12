@@ -71,16 +71,16 @@ function TreeRow({ item }: { item: TreeItem }) {
 
 export default function SolutionSection() {
   return (
-    <section className="flex flex-col items-center gap-16 w-full px-20 py-[100px] bg-[var(--bg-dark)]">
+    <section className="flex flex-col items-center gap-10 md:gap-16 w-full px-5 sm:px-8 lg:px-20 py-16 md:py-[100px] bg-[var(--bg-dark)]">
       {/* Header */}
-      <div className="flex flex-col items-center gap-5 max-w-[750px]">
+      <div className="flex flex-col items-center gap-4 md:gap-5 max-w-[750px]">
         <span className="text-xs font-semibold text-[var(--accent-blue-light)] tracking-[2px]">
           THE SOLUTION
         </span>
-        <h2 className="font-display text-5xl font-extrabold text-[var(--text-white)] text-center tracking-[-1.5px]">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--text-white)] text-center tracking-[-1px] md:tracking-[-1.5px]">
           From Flat Records to Composable Asset Graphs
         </h2>
-        <p className="text-lg text-[var(--text-white-secondary)] text-center leading-[1.6] max-w-[650px]">
+        <p className="text-base md:text-lg text-[var(--text-white-secondary)] text-center leading-[1.6] max-w-[650px]">
           A real-world asset becomes a root token. Each certificate, component,
           or document is a sub-token. Each sub-token can itself contain
           sub-tokens — forming a verifiable, composable structure.
@@ -88,9 +88,9 @@ export default function SolutionSection() {
       </div>
 
       {/* Example Cards */}
-      <div className="flex justify-center gap-8 w-full">
+      <div className="flex flex-col lg:flex-row justify-center gap-6 lg:gap-8 w-full">
         {/* Real Estate */}
-        <div className="flex flex-col gap-6 w-[580px] p-9 rounded-2xl bg-[var(--bg-dark-elevated)] border border-[var(--border-dark)]">
+        <div className="flex flex-col gap-5 md:gap-6 w-full lg:w-[580px] p-6 md:p-9 rounded-2xl bg-[var(--bg-dark-elevated)] border border-[var(--border-dark)]">
           <div className="flex items-center gap-2.5">
             <House className="w-5 h-5 text-[var(--accent-blue-light)]" />
             <span className="font-display text-lg font-bold text-[var(--text-white)]">
@@ -105,7 +105,7 @@ export default function SolutionSection() {
         </div>
 
         {/* Manufacturing */}
-        <div className="flex flex-col gap-6 w-[580px] p-9 rounded-2xl bg-[var(--bg-dark-elevated)] border border-[var(--border-dark)]">
+        <div className="flex flex-col gap-5 md:gap-6 w-full lg:w-[580px] p-6 md:p-9 rounded-2xl bg-[var(--bg-dark-elevated)] border border-[var(--border-dark)]">
           <div className="flex items-center gap-2.5">
             <Factory className="w-5 h-5 text-[var(--accent-blue-light)]" />
             <span className="font-display text-lg font-bold text-[var(--text-white)]">

@@ -21,11 +21,11 @@ const socials = ["X", "LinkedIn", "GitHub"];
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col gap-12 w-full px-20 pt-[60px] pb-10 bg-[#09090B] border-t border-[var(--bg-dark-elevated)]">
+    <footer className="flex flex-col gap-8 md:gap-12 w-full px-5 sm:px-8 lg:px-20 pt-10 md:pt-[60px] pb-8 md:pb-10 bg-[#09090B] border-t border-[var(--bg-dark-elevated)]">
       {/* Top */}
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-0 w-full">
         {/* Brand */}
-        <div className="flex flex-col gap-4 w-[300px]">
+        <div className="flex flex-col gap-4 max-w-[300px]">
           <div className="flex items-center gap-2.5">
             <div className="w-7 h-7 rounded-[7px] bg-[var(--accent-blue)] relative">
               <div className="absolute top-1 left-1 w-3 h-3 rounded-[3px] bg-white/20" />
@@ -40,9 +40,9 @@ export default function Footer() {
         </div>
 
         {/* Links */}
-        <div className="flex gap-16">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-10 lg:gap-16">
           {footerColumns.map((col) => (
-            <div key={col.title} className="flex flex-col gap-3.5">
+            <div key={col.title} className="flex flex-col gap-3 sm:gap-3.5">
               <span className="text-[13px] font-semibold text-[var(--text-white)]">
                 {col.title}
               </span>
@@ -64,7 +64,7 @@ export default function Footer() {
       <div className="w-full h-px bg-[var(--bg-dark-elevated)]" />
 
       {/* Bottom */}
-      <div className="flex items-center justify-between w-full">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 w-full">
         <span className="text-xs text-[#3F3F46]">
           &copy; 2025 BlockTrace. All rights reserved.
         </span>
