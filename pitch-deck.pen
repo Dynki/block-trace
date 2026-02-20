@@ -1,5 +1,5 @@
 {
-  "version": "2.7",
+  "version": "2.8",
   "children": [
     {
       "type": "frame",
@@ -89,7 +89,7 @@
               "id": "ADtqg",
               "name": "companyName",
               "fill": "#FFFFFF",
-              "content": "[Insert Company Name]",
+              "content": "BlockTrace",
               "textAlign": "center",
               "fontFamily": "Inter",
               "fontSize": 56,
@@ -102,10 +102,11 @@
               "fill": "#22D3EE",
               "textGrowth": "fixed-width",
               "width": 900,
-              "content": "Composable Token Infrastructure for Real-World Asset Traceability",
+              "content": "Composable Token Infrastructure for Real-World Assets",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 24
+              "fontSize": 24,
+              "fontWeight": "normal"
             },
             {
               "type": "rectangle",
@@ -119,11 +120,12 @@
               "type": "text",
               "id": "MBSis",
               "name": "subtitle",
-              "fill": "#94A3B8",
-              "content": "Turning physical assets into verifiable digital structures.",
+              "fill": "#b4bfcc",
+              "content": "Turn physical assets into verifiable digital structures with complete lifecycle traceability.",
               "textAlign": "center",
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -133,7 +135,7 @@
           "x": 1860,
           "y": 1040,
           "name": "slideNum",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "01",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -181,7 +183,7 @@
               "fill": "#FFFFFF",
               "textGrowth": "fixed-width",
               "width": 600,
-              "content": "Broken Traceability Across Industries",
+              "content": "Traceability Is Broken",
               "lineHeight": 1.15,
               "fontFamily": "Inter",
               "fontSize": 44,
@@ -191,13 +193,14 @@
               "type": "text",
               "id": "yl2KO",
               "name": "slideDesc2",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 560,
-              "content": "Enterprise supply chains run on fragmented, siloed data that cannot be trusted across organisations.",
+              "content": "Enterprise asset data lives in fragmented silos. Compliance is manual. Cross-organisation trust is non-existent. Bills of materials are unverifiable.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -236,7 +239,7 @@
                   "id": "N53x1",
                   "name": "c1title",
                   "fill": "#FFFFFF",
-                  "content": "Fragmented Systems",
+                  "content": "Siloed Databases",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -245,13 +248,14 @@
                   "type": "text",
                   "id": "mccEr",
                   "name": "c1desc",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Traceability data lives across dozens of disconnected ERPs, spreadsheets, and legacy databases with no shared source of truth.",
+                  "content": "Enterprise databases have no interoperability. Traceability data lives across dozens of disconnected ERPs, spreadsheets, and legacy systems with no shared source of truth.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -290,13 +294,14 @@
                   "type": "text",
                   "id": "Td9Lh",
                   "name": "c2desc",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Enterprise data lacks cryptographic verifiability. Partners, auditors, and regulators cannot independently verify claims.",
+                  "content": "Enterprise data lacks cryptographic verifiability. Partners, auditors, and regulators cannot independently verify claims across organisational boundaries.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -335,13 +340,14 @@
                   "type": "text",
                   "id": "fd31x",
                   "name": "c3desc",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Bills of materials cannot be cryptographically verified. Component history is easily lost or falsified.",
+                  "content": "Bills of materials cannot be cryptographically verified. Component history is easily lost or falsified across complex supply chains.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -371,7 +377,7 @@
                   "id": "O58lj",
                   "name": "c4title",
                   "fill": "#FFFFFF",
-                  "content": "Hard to Audit",
+                  "content": "Manual Compliance",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -380,13 +386,14 @@
                   "type": "text",
                   "id": "wZpWf",
                   "name": "c4desc",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Asset histories require manual reconstruction. Compliance audits are expensive, slow, and error-prone.",
+                  "content": "Manual compliance and audit processes are expensive, slow, and error-prone. Regulatory reporting requires costly manual reconstruction of asset histories.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -416,7 +423,7 @@
                   "id": "GCfro",
                   "name": "c5title",
                   "fill": "#FFFFFF",
-                  "content": "Manual Compliance",
+                  "content": "Fragmented Lifecycles",
                   "fontFamily": "Inter",
                   "fontSize": 18,
                   "fontWeight": "600"
@@ -425,13 +432,14 @@
                   "type": "text",
                   "id": "Irq74",
                   "name": "c5desc",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Regulatory compliance is handled through manual processes — costly, unscalable, and constantly at risk of failure.",
+                  "content": "Asset lifecycle records are scattered across systems and organisations. No single view of an asset's complete history exists.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -443,7 +451,7 @@
           "x": 1860,
           "y": 1040,
           "name": "sn2",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "02",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -501,13 +509,14 @@
               "type": "text",
               "id": "YTaNe",
               "name": "d3",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 650,
               "content": "Regulatory pressure, enterprise SaaS maturity, and RWA tokenisation are creating an infrastructure-level opportunity.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -801,13 +810,14 @@
                   "type": "text",
                   "id": "9Y8Fl",
                   "name": "s1lab",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": 280,
                   "content": "Projected RWA tokenisation market by 2030",
                   "lineHeight": 1.4,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -837,13 +847,14 @@
                   "type": "text",
                   "id": "EMG1Z",
                   "name": "s2lab",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": 280,
                   "content": "Of enterprises cite supply chain visibility as critical priority",
                   "lineHeight": 1.4,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -873,13 +884,14 @@
                   "type": "text",
                   "id": "oq4S2",
                   "name": "s3lab",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": 280,
                   "content": "New supply chain due diligence regulations enacted globally since 2020",
                   "lineHeight": 1.4,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -891,7 +903,7 @@
           "x": 1860,
           "y": 1040,
           "name": "sn3",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "03",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -937,7 +949,7 @@
               "id": "iQ0ep",
               "name": "t4",
               "fill": "#FFFFFF",
-              "content": "Token Packs",
+              "content": "From Flat Records to Composable Asset Graphs",
               "fontFamily": "Inter",
               "fontSize": 44,
               "fontWeight": "700"
@@ -946,13 +958,14 @@
               "type": "text",
               "id": "rP1av",
               "name": "d4",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 560,
-              "content": "A real-world asset is represented as a root token with nested sub-tokens. Each sub-token can itself be a pack — enabling composable, recursive asset structures.",
+              "content": "A real-world asset becomes a root token. Each certificate, component, or document is a sub-token. Each sub-token can itself contain sub-tokens — forming a verifiable, composable structure.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -1003,52 +1016,12 @@
               ]
             },
             {
-              "type": "rectangle",
-              "id": "bQY3W",
-              "x": 160,
-              "y": 56,
-              "name": "line1",
-              "fill": "#22D3EE44",
-              "width": 2,
-              "height": 44
-            },
-            {
-              "type": "rectangle",
-              "id": "Cz8KB",
-              "x": 390,
-              "y": 56,
-              "name": "line2",
-              "fill": "#22D3EE44",
-              "width": 2,
-              "height": 44
-            },
-            {
-              "type": "rectangle",
-              "id": "wdU20",
-              "x": 620,
-              "y": 56,
-              "name": "line3",
-              "fill": "#22D3EE44",
-              "width": 2,
-              "height": 44
-            },
-            {
-              "type": "rectangle",
-              "id": "YYJFD",
-              "x": 160,
-              "y": 98,
-              "name": "hline",
-              "fill": "#22D3EE44",
-              "width": 462,
-              "height": 2
-            },
-            {
               "type": "frame",
               "id": "2BPDp",
-              "x": 40,
-              "y": 100,
+              "x": 45,
+              "y": 128,
               "name": "child1",
-              "width": 240,
+              "width": 200,
               "height": 48,
               "fill": "#1E293B",
               "cornerRadius": 8,
@@ -1085,10 +1058,10 @@
             {
               "type": "frame",
               "id": "dynZx",
-              "x": 270,
-              "y": 100,
+              "x": 290,
+              "y": 128,
               "name": "child2",
-              "width": 240,
+              "width": 200,
               "height": 48,
               "fill": "#1E293B",
               "cornerRadius": 8,
@@ -1125,10 +1098,10 @@
             {
               "type": "frame",
               "id": "J4jZz",
-              "x": 500,
-              "y": 100,
+              "x": 535,
+              "y": 128,
               "name": "child3",
-              "width": 240,
+              "width": 200,
               "height": 48,
               "fill": "#1E293B",
               "cornerRadius": 8,
@@ -1158,6 +1131,344 @@
                   "content": "Renovation Token",
                   "fontFamily": "Inter",
                   "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "ZCt8a",
+              "x": 389,
+              "y": 56,
+              "name": "trunk",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "3Ffov",
+              "x": 145,
+              "y": 92,
+              "name": "hbar",
+              "fill": "#22D3EE44",
+              "width": 490,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "E92rD",
+              "x": 145,
+              "y": 92,
+              "name": "branchL",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "ulfNS",
+              "x": 389,
+              "y": 92,
+              "name": "branchC",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "xYjQz",
+              "x": 635,
+              "y": 92,
+              "name": "branchR",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "hVWh3",
+              "x": 145,
+              "y": 176,
+              "name": "s1trunk",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "lVtmk",
+              "x": 90,
+              "y": 200,
+              "name": "s1hbar",
+              "fill": "#22D3EE22",
+              "width": 115,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "QdU1e",
+              "x": 90,
+              "y": 200,
+              "name": "s1brL",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "mQpdD",
+              "x": 205,
+              "y": 200,
+              "name": "s1brR",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "frame",
+              "id": "6B1UG",
+              "x": 40,
+              "y": 224,
+              "name": "sub1a",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EL6hO",
+                  "fill": "#b4bfcc",
+                  "content": "Land Survey",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rsz96",
+              "x": 155,
+              "y": 224,
+              "name": "sub1b",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ciYUf",
+                  "fill": "#b4bfcc",
+                  "content": "Boundary Rpt",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "T2en2",
+              "x": 390,
+              "y": 176,
+              "name": "s2trunk",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "qDHaf",
+              "x": 335,
+              "y": 200,
+              "name": "s2hbar",
+              "fill": "#22D3EE22",
+              "width": 115,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "fdcl6",
+              "x": 335,
+              "y": 200,
+              "name": "s2brL",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "URvZw",
+              "x": 450,
+              "y": 200,
+              "name": "s2brR",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "frame",
+              "id": "XEQTv",
+              "x": 285,
+              "y": 224,
+              "name": "sub2a",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OoGO9",
+                  "fill": "#b4bfcc",
+                  "content": "Inspector Sig",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rtECY",
+              "x": 400,
+              "y": 224,
+              "name": "sub2b",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LDy4w",
+                  "fill": "#b4bfcc",
+                  "content": "Test Report",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "TLsDV",
+              "x": 635,
+              "y": 176,
+              "name": "s3trunk",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "OLP4s",
+              "x": 580,
+              "y": 200,
+              "name": "s3hbar",
+              "fill": "#22D3EE22",
+              "width": 115,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "JsiAU",
+              "x": 580,
+              "y": 200,
+              "name": "s3brL",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "rectangle",
+              "id": "Xs29s",
+              "x": 695,
+              "y": 200,
+              "name": "s3brR",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 24
+            },
+            {
+              "type": "frame",
+              "id": "vz7Me",
+              "x": 530,
+              "y": 224,
+              "name": "sub3a",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5aodn",
+                  "fill": "#b4bfcc",
+                  "content": "Contractor",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kueGN",
+              "x": 645,
+              "y": 224,
+              "name": "sub3b",
+              "width": 100,
+              "height": 34,
+              "fill": "#0F172A",
+              "cornerRadius": 6,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE22"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lPTvx",
+                  "fill": "#b4bfcc",
+                  "content": "Materials",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
                   "fontWeight": "500"
                 }
               ]
@@ -1215,42 +1526,12 @@
               ]
             },
             {
-              "type": "rectangle",
-              "id": "2fqCL",
-              "x": 270,
-              "y": 56,
-              "name": "m2line1",
-              "fill": "#22D3EE44",
-              "width": 2,
-              "height": 44
-            },
-            {
-              "type": "rectangle",
-              "id": "06rLV",
-              "x": 510,
-              "y": 56,
-              "name": "m2line2",
-              "fill": "#22D3EE44",
-              "width": 2,
-              "height": 44
-            },
-            {
-              "type": "rectangle",
-              "id": "iQMUt",
-              "x": 270,
-              "y": 98,
-              "name": "m2hline",
-              "fill": "#22D3EE44",
-              "width": 242,
-              "height": 2
-            },
-            {
               "type": "frame",
               "id": "VWWut",
-              "x": 150,
-              "y": 100,
+              "x": 140,
+              "y": 128,
               "name": "m2c1",
-              "width": 240,
+              "width": 220,
               "height": 48,
               "fill": "#1E293B",
               "cornerRadius": 8,
@@ -1287,10 +1568,10 @@
             {
               "type": "frame",
               "id": "xs5Jf",
-              "x": 390,
-              "y": 100,
+              "x": 420,
+              "y": 128,
               "name": "m2c2",
-              "width": 240,
+              "width": 220,
               "height": 48,
               "fill": "#1E293B",
               "cornerRadius": 8,
@@ -1325,42 +1606,12 @@
               ]
             },
             {
-              "type": "rectangle",
-              "id": "66MqL",
-              "x": 210,
-              "y": 148,
-              "name": "m2subLine1",
-              "fill": "#22D3EE22",
-              "width": 2,
-              "height": 32
-            },
-            {
-              "type": "rectangle",
-              "id": "YLNPi",
-              "x": 330,
-              "y": 148,
-              "name": "m2subLine2",
-              "fill": "#22D3EE22",
-              "width": 2,
-              "height": 32
-            },
-            {
-              "type": "rectangle",
-              "id": "yBFaW",
-              "x": 210,
-              "y": 178,
-              "name": "m2subH",
-              "fill": "#22D3EE22",
-              "width": 122,
-              "height": 2
-            },
-            {
               "type": "frame",
               "id": "R4hVe",
-              "x": 150,
-              "y": 180,
+              "x": 105,
+              "y": 240,
               "name": "m2sub1",
-              "width": 120,
+              "width": 130,
               "height": 40,
               "fill": "#0F172A",
               "cornerRadius": 6,
@@ -1376,7 +1627,7 @@
                   "type": "text",
                   "id": "Sib1j",
                   "name": "m2s1t",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "content": "Component A",
                   "fontFamily": "JetBrains Mono",
                   "fontSize": 11,
@@ -1387,10 +1638,10 @@
             {
               "type": "frame",
               "id": "FE7GN",
-              "x": 280,
-              "y": 180,
+              "x": 265,
+              "y": 240,
               "name": "m2sub2",
-              "width": 120,
+              "width": 130,
               "height": 40,
               "fill": "#0F172A",
               "cornerRadius": 6,
@@ -1406,10 +1657,186 @@
                   "type": "text",
                   "id": "ik7Zg",
                   "name": "m2s2t",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "content": "Component B",
                   "fontFamily": "JetBrains Mono",
                   "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "6XAtB",
+              "x": 389,
+              "y": 56,
+              "name": "m2trunk",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "LDTHz",
+              "x": 250,
+              "y": 92,
+              "name": "m2hbar",
+              "fill": "#22D3EE44",
+              "width": 280,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "vVifh",
+              "x": 250,
+              "y": 92,
+              "name": "m2branchL",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "IBatb",
+              "x": 530,
+              "y": 92,
+              "name": "m2branchR",
+              "fill": "#22D3EE44",
+              "width": 2,
+              "height": 36
+            },
+            {
+              "type": "rectangle",
+              "id": "WWJDE",
+              "x": 250,
+              "y": 176,
+              "name": "subTrunk",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 32
+            },
+            {
+              "type": "rectangle",
+              "id": "lRmwd",
+              "x": 170,
+              "y": 208,
+              "name": "subHbar",
+              "fill": "#22D3EE22",
+              "width": 160,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "w4BIn",
+              "x": 170,
+              "y": 208,
+              "name": "subBranchL",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 32
+            },
+            {
+              "type": "rectangle",
+              "id": "AMOCM",
+              "x": 330,
+              "y": 208,
+              "name": "subBranchR",
+              "fill": "#22D3EE22",
+              "width": 2,
+              "height": 32
+            },
+            {
+              "type": "rectangle",
+              "id": "66tgn",
+              "x": 170,
+              "y": 280,
+              "name": "l3trunk",
+              "fill": "#22D3EE15",
+              "width": 2,
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "QbgGr",
+              "x": 120,
+              "y": 300,
+              "name": "l3hbar",
+              "fill": "#22D3EE15",
+              "width": 100,
+              "height": 2
+            },
+            {
+              "type": "rectangle",
+              "id": "OWCs3",
+              "x": 120,
+              "y": 300,
+              "name": "l3brL",
+              "fill": "#22D3EE15",
+              "width": 2,
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "hBywx",
+              "x": 220,
+              "y": 300,
+              "name": "l3brR",
+              "fill": "#22D3EE15",
+              "width": 2,
+              "height": 20
+            },
+            {
+              "type": "frame",
+              "id": "ioAPH",
+              "x": 75,
+              "y": 320,
+              "name": "l3sub1",
+              "width": 90,
+              "height": 30,
+              "fill": "#0F172A",
+              "cornerRadius": 5,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE15"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ykeUM",
+                  "fill": "#94a3b8",
+                  "content": "Raw Material",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 9,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xMyYx",
+              "x": 175,
+              "y": 320,
+              "name": "l3sub2",
+              "width": 90,
+              "height": 30,
+              "fill": "#0F172A",
+              "cornerRadius": 5,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#22D3EE15"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G8zE3",
+                  "fill": "#94a3b8",
+                  "content": "Origin Cert",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 9,
                   "fontWeight": "500"
                 }
               ]
@@ -1422,7 +1849,7 @@
           "x": 120,
           "y": 360,
           "name": "label4a",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "Real Estate Example",
           "fontFamily": "JetBrains Mono",
           "fontSize": 11,
@@ -1435,7 +1862,7 @@
           "x": 1000,
           "y": 360,
           "name": "label4b",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "Manufacturing Example",
           "fontFamily": "JetBrains Mono",
           "fontSize": 11,
@@ -1448,7 +1875,7 @@
           "x": 1860,
           "y": 1040,
           "name": "sn4",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "04",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -1494,7 +1921,7 @@
               "id": "aM5UU",
               "name": "t5",
               "fill": "#FFFFFF",
-              "content": "How It Works",
+              "content": "A Layered Architecture Built for Enterprise",
               "fontFamily": "Inter",
               "fontSize": 44,
               "fontWeight": "700"
@@ -1503,13 +1930,14 @@
               "type": "text",
               "id": "1XSe2",
               "name": "d5",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 650,
-              "content": "A layered architecture designed for enterprise integration, data integrity, and scalable tokenisation.",
+              "content": "Five purpose-built layers work together to tokenise, anchor, and query your asset data — without replacing existing systems.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -1583,12 +2011,13 @@
                       "type": "text",
                       "id": "UaTQz",
                       "name": "l1desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "REST APIs, webhooks, ERP connectors (SAP, Oracle, custom). Enterprise systems push asset data in.",
+                      "content": "REST APIs, ERP connectors, webhooks, batch import. Enterprise systems push asset data in without replacing existing infrastructure.",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1762,12 +2191,13 @@
                       "type": "text",
                       "id": "noAVV",
                       "name": "l2desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Hierarchical token minting. Composable pack assembly. Schema validation and lifecycle event tracking.",
+                      "content": "Hierarchical token pack creation, versioning, and composition. Schema validation and lifecycle event tracking.",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1867,12 +2297,13 @@
                       "type": "text",
                       "id": "JMXOK",
                       "name": "l3desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Indexed metadata storage. Fast querying. Document attachments. Full asset graph traversal.",
+                      "content": "Structured storage, fast retrieval, selective disclosure. Full asset graph traversal and document attachments.",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1972,12 +2403,13 @@
                       "type": "text",
                       "id": "FhlGB",
                       "name": "l4desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Cryptographic proof anchored to public or private chains. Tamper-evident. Immutable audit trail.",
+                      "content": "Immutable proof on any blockchain. Chain-agnostic anchoring. Tamper-evident, cryptographic audit trail.",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2077,12 +2509,13 @@
                       "type": "text",
                       "id": "qePd8",
                       "name": "l5desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Visual asset explorer. Provenance queries. Compliance reporting. Real-time event monitoring.",
+                      "content": "Real-time asset insights, dependency maps, lifecycle views. Visual asset explorer and compliance reporting.",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2130,7 +2563,7 @@
           "x": 1860,
           "y": 1040,
           "name": "sn5",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "05",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -2140,10 +2573,10 @@
     },
     {
       "type": "frame",
-      "id": "KCXuG",
+      "id": "new_platform_slide",
       "x": 10100,
       "y": 0,
-      "name": "06 - Why Token Packs Matter",
+      "name": "06 - The Platform",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -2165,7 +2598,7 @@
               "id": "0JiGT",
               "name": "l6",
               "fill": "#22D3EE",
-              "content": "WHY IT MATTERS",
+              "content": "THE PLATFORM",
               "fontFamily": "JetBrains Mono",
               "fontSize": 12,
               "fontWeight": "600",
@@ -2178,7 +2611,7 @@
               "fill": "#FFFFFF",
               "textGrowth": "fixed-width",
               "width": 700,
-              "content": "The Composable Asset Graph",
+              "content": "Enterprise-Grade Asset Intelligence",
               "lineHeight": 1.15,
               "fontFamily": "Inter",
               "fontSize": 44,
@@ -2188,13 +2621,14 @@
               "type": "text",
               "id": "HwTIp",
               "name": "d6",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 650,
-              "content": "Hierarchical Token Packs enable capabilities that flat tokenisation systems simply cannot deliver.",
+              "content": "A modern SaaS dashboard built for data-heavy workflows. Explore asset graphs, track lifecycles, and monitor certifications in real time.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -2218,7 +2652,7 @@
                 {
                   "type": "frame",
                   "id": "ZYK8H",
-                  "name": "b1",
+                  "name": "prod_card_1",
                   "width": "fill_container",
                   "fill": "#1E293B",
                   "cornerRadius": 12,
@@ -2232,7 +2666,7 @@
                       "name": "b1i",
                       "width": 28,
                       "height": 28,
-                      "iconFontName": "rotate-ccw",
+                      "iconFontName": "network",
                       "iconFontFamily": "lucide",
                       "fill": "#22D3EE"
                     },
@@ -2241,7 +2675,7 @@
                       "id": "YNE7q",
                       "name": "b1t",
                       "fill": "#FFFFFF",
-                      "content": "Complete Lifecycle Wrapping",
+                      "content": "Asset Graph Explorer",
                       "fontFamily": "Inter",
                       "fontSize": 18,
                       "fontWeight": "600"
@@ -2250,20 +2684,21 @@
                       "type": "text",
                       "id": "LdVQW",
                       "name": "b1d",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Every event, certificate, and modification is captured as a token within the asset's pack — creating a full digital twin of its history.",
+                      "content": "Visualise complex relationships and dependencies across your entire asset portfolio.",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
                   "id": "GvPfr",
-                  "name": "b2",
+                  "name": "prod_card_2",
                   "width": "fill_container",
                   "fill": "#1E293B",
                   "cornerRadius": 12,
@@ -2277,7 +2712,7 @@
                       "name": "b2i",
                       "width": 28,
                       "height": 28,
-                      "iconFontName": "git-branch",
+                      "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
                       "fill": "#22D3EE"
                     },
@@ -2286,7 +2721,7 @@
                       "id": "tlQ1b",
                       "name": "b2t",
                       "fill": "#FFFFFF",
-                      "content": "Recursive Provenance",
+                      "content": "Timeline View",
                       "fontFamily": "Inter",
                       "fontSize": 18,
                       "fontWeight": "600"
@@ -2295,13 +2730,14 @@
                       "type": "text",
                       "id": "JFOfW",
                       "name": "b2d",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Trace any component back through its entire chain of custody, no matter how deeply nested in the asset hierarchy.",
+                      "content": "Track full lifecycle events and mutable history in a linear, auditable timeline.",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -2318,7 +2754,7 @@
                 {
                   "type": "frame",
                   "id": "NGv3f",
-                  "name": "b3",
+                  "name": "prod_card_3",
                   "width": "fill_container",
                   "fill": "#1E293B",
                   "cornerRadius": 12,
@@ -2332,7 +2768,7 @@
                       "name": "b3i",
                       "width": 28,
                       "height": 28,
-                      "iconFontName": "shield-check",
+                      "iconFontName": "git-merge",
                       "iconFontFamily": "lucide",
                       "fill": "#22D3EE"
                     },
@@ -2341,7 +2777,7 @@
                       "id": "UJIgZ",
                       "name": "b3t",
                       "fill": "#FFFFFF",
-                      "content": "BOM Cryptographic Integrity",
+                      "content": "Component Dependency Map",
                       "fontFamily": "Inter",
                       "fontSize": 18,
                       "fontWeight": "600"
@@ -2350,20 +2786,21 @@
                       "type": "text",
                       "id": "pATuq",
                       "name": "b3d",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Bills of materials are verified at the component level. Tampering with any sub-token invalidates the pack hash.",
+                      "content": "Trace sub-assemblies and verify BOMs down to the raw material level.",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
                   "id": "PdDfr",
-                  "name": "b4",
+                  "name": "prod_card_4",
                   "width": "fill_container",
                   "fill": "#1E293B",
                   "cornerRadius": 12,
@@ -2377,7 +2814,7 @@
                       "name": "b4i",
                       "width": 28,
                       "height": 28,
-                      "iconFontName": "triangle-alert",
+                      "iconFontName": "bell",
                       "iconFontFamily": "lucide",
                       "fill": "#22D3EE"
                     },
@@ -2386,7 +2823,7 @@
                       "id": "FWcSf",
                       "name": "b4t",
                       "fill": "#FFFFFF",
-                      "content": "Component-Level Recall",
+                      "content": "Certification Validity Alerts",
                       "fontFamily": "Inter",
                       "fontSize": 18,
                       "fontWeight": "600"
@@ -2395,13 +2832,14 @@
                       "type": "text",
                       "id": "YbHW2",
                       "name": "b4d",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Identify every product that contains a specific sub-component. Instant recall at any depth of the hierarchy.",
+                      "content": "Proactive monitoring of certification expiry and compliance violations across your portfolio.",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -2454,7 +2892,7 @@
                       "name": "b5i",
                       "width": 28,
                       "height": 28,
-                      "iconFontName": "file-badge",
+                      "iconFontName": "shield",
                       "iconFontFamily": "lucide",
                       "fill": "#22D3EE"
                     },
@@ -2463,7 +2901,7 @@
                       "id": "USYSA",
                       "name": "b5t",
                       "fill": "#FFFFFF",
-                      "content": "Asset-Level Proof Generation",
+                      "content": "Built for Enterprise Trust",
                       "fontFamily": "Inter",
                       "fontSize": 18,
                       "fontWeight": "600"
@@ -2472,13 +2910,14 @@
                       "type": "text",
                       "id": "m9vs9",
                       "name": "b5d",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Generate verifiable proof documents for any asset or sub-component on demand. Auditors can independently verify without system access.",
+                      "content": "Security isn't a feature — it's the foundation. Every token is hash-verified, tamper-evident. Selective disclosure, role-based permissions, chain-agnostic anchoring, and a hybrid on/off-chain model.",
                       "lineHeight": 1.6,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -2492,7 +2931,7 @@
           "x": 1860,
           "y": 1040,
           "name": "sn6",
-          "fill": "#475569",
+          "fill": "#728197",
           "content": "06",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
@@ -2502,10 +2941,378 @@
     },
     {
       "type": "frame",
-      "id": "YCMO1",
+      "id": "KCXuG",
       "x": 12120,
       "y": 0,
-      "name": "07 - Use Cases",
+      "name": "07 - Why Token Packs Matter",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#0A0F1C",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "7DVq4",
+          "x": 120,
+          "y": 80,
+          "name": "h6",
+          "width": 700,
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "nobgW",
+              "name": "l6",
+              "fill": "#22D3EE",
+              "content": "WHY IT MATTERS",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "mTiEa",
+              "name": "t6",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Why Hierarchical Token Packs Matter",
+              "lineHeight": 1.15,
+              "fontFamily": "Inter",
+              "fontSize": 44,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "F7R0c",
+              "name": "d6",
+              "fill": "#94a3b8",
+              "textGrowth": "fixed-width",
+              "width": 650,
+              "content": "Hierarchical Token Packs enable capabilities that flat tokenisation systems simply cannot deliver.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7pKPo",
+          "x": 120,
+          "y": 380,
+          "name": "grid6",
+          "width": 1680,
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "LlBRV",
+              "name": "col6a",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gOSjG",
+                  "name": "b1",
+                  "width": "fill_container",
+                  "fill": "#1E293B",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "L0UG2",
+                      "name": "b1i",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "git-branch",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zuM1f",
+                      "name": "b1t",
+                      "fill": "#FFFFFF",
+                      "content": "Recursive Provenance",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hrsOB",
+                      "name": "b1d",
+                      "fill": "#b4bfcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trace any component back through its full history, across every level of assembly. Complete chain of custody at any depth.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cOZ1n",
+                  "name": "b2",
+                  "width": "fill_container",
+                  "fill": "#1E293B",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "TCvU1",
+                      "name": "b2i",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "history",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mzKKS",
+                      "name": "b2t",
+                      "fill": "#FFFFFF",
+                      "content": "Full Lifecycle Versioning",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7amWQ",
+                      "name": "b2d",
+                      "fill": "#b4bfcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Every change to an asset or sub-token is versioned, timestamped, and immutable. A complete digital history of every asset.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rwS38",
+              "name": "col6b",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DyA49",
+                  "name": "b3",
+                  "width": "fill_container",
+                  "fill": "#1E293B",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "0QetK",
+                      "name": "b3i",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "shield-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QfsPw",
+                      "name": "b3t",
+                      "fill": "#FFFFFF",
+                      "content": "Verifiable BOM",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rj6Qd",
+                      "name": "b3d",
+                      "fill": "#b4bfcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cryptographically verify every bill of materials down to the component level. Tampering with any sub-token invalidates the pack hash.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7GMTd",
+                  "name": "b4",
+                  "width": "fill_container",
+                  "fill": "#1E293B",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "0mvlg",
+                      "name": "b4i",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "triangle-alert",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fFOav",
+                      "name": "b4t",
+                      "fill": "#FFFFFF",
+                      "content": "Component-Level Recall",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f23yc",
+                      "name": "b4d",
+                      "fill": "#b4bfcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Identify and isolate affected assets instantly when a component is recalled. Instant recall at any depth of the hierarchy.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gubEw",
+              "name": "col6c",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8RsYc",
+                  "name": "b5",
+                  "width": "fill_container",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#22D3EE15",
+                        "position": 0
+                      },
+                      {
+                        "color": "#1E293B",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#22D3EE44"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "gi4n0",
+                      "name": "b5i",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "file-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qtvnk",
+                      "name": "b5t",
+                      "fill": "#FFFFFF",
+                      "content": "Audit-Ready Assets",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HCKzy",
+                      "name": "b5d",
+                      "fill": "#b4bfcc",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Generate compliance reports instantly with cryptographic proof of every claim. Auditors can independently verify without system access.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "8llnM",
+          "x": 1860,
+          "y": 1040,
+          "name": "sn6",
+          "fill": "#728197",
+          "content": "07",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 12,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YCMO1",
+      "x": 14140,
+      "y": 0,
+      "name": "08 - Use Cases",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -2538,7 +3345,7 @@
               "id": "cNidZ",
               "name": "t7",
               "fill": "#FFFFFF",
-              "content": "Industry Applications",
+              "content": "Built for Asset-Heavy Industries",
               "fontFamily": "Inter",
               "fontSize": 44,
               "fontWeight": "700"
@@ -2613,13 +3420,14 @@
                       "type": "text",
                       "id": "v2cVp",
                       "name": "uc1desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "BOM verification with cryptographic integrity at every assembly stage.",
+                      "content": "Track sub-assemblies, components, and certifications across complex production lines with BOM verification at every stage.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -2646,28 +3454,31 @@
                           "type": "text",
                           "id": "qDMJN",
                           "name": "uc1c1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Cylinder Block",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "ts3Cr",
                           "name": "uc1c2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Crankshaft",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "UrpaE",
                           "name": "uc1c3",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "  └─ QC Report",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -2734,13 +3545,14 @@
                       "type": "text",
                       "id": "Uu9jI",
                       "name": "uc2desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Property certificates, surveys, and renovation history in a single verifiable pack.",
+                      "content": "Compose property tokens from surveys, certificates, and renovation records into a single verifiable pack.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -2767,28 +3579,31 @@
                           "type": "text",
                           "id": "FPdm0",
                           "name": "uc2c1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Title Deed",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "JsJ4j",
                           "name": "uc2c2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Survey Report",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "Y6l1m",
                           "name": "uc2c3",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "  └─ Energy Rating",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -2855,13 +3670,14 @@
                       "type": "text",
                       "id": "t1rFe",
                       "name": "uc3desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "End-to-end supply chain traceability from raw material to patient delivery.",
+                      "content": "Full chain-of-custody from raw material to patient delivery with embedded regulatory compliance.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -2888,28 +3704,31 @@
                           "type": "text",
                           "id": "HxWza",
                           "name": "uc3c1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Raw Material Cert",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "grVmJ",
                           "name": "uc3c2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Lab Analysis",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "3gQbP",
                           "name": "uc3c3",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "  └─ Chain of Custody",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -2976,13 +3795,14 @@
                       "type": "text",
                       "id": "jBkVR",
                       "name": "uc4desc",
-                      "fill": "#94A3B8",
+                      "fill": "#b4bfcc",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Verifiable carbon credit provenance with full project and methodology documentation.",
+                      "content": "Verifiable carbon credits and energy asset provenance with embedded compliance and full project documentation.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -3009,28 +3829,31 @@
                           "type": "text",
                           "id": "Riahp",
                           "name": "uc4c1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Project Audit",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "k3X5N",
                           "name": "uc4c2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "  ├─ Measurement Data",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
                           "id": "wFz93",
                           "name": "uc4c3",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "  └─ Retirement Record",
                           "fontFamily": "JetBrains Mono",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -3046,8 +3869,8 @@
           "x": 1860,
           "y": 1040,
           "name": "sn7",
-          "fill": "#475569",
-          "content": "07",
+          "fill": "#728197",
+          "content": "08",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
@@ -3057,9 +3880,9 @@
     {
       "type": "frame",
       "id": "cXOay",
-      "x": 14140,
+      "x": 16160,
       "y": 0,
-      "name": "08 - Competitive Landscape",
+      "name": "09 - Competitive Landscape",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -3184,7 +4007,7 @@
                   "fill": "#0A0F1C",
                   "textGrowth": "fixed-width",
                   "width": 260,
-                  "content": "[Company Name]",
+                  "content": "BlockTrace",
                   "textAlign": "center",
                   "fontFamily": "Inter",
                   "fontSize": 13,
@@ -3221,7 +4044,7 @@
                   "type": "text",
                   "id": "N5ZGq",
                   "name": "r1c2",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3234,7 +4057,7 @@
                   "type": "text",
                   "id": "mqC8b",
                   "name": "r1c3",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3247,7 +4070,7 @@
                   "type": "text",
                   "id": "EnjRn",
                   "name": "r1c4",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3300,7 +4123,7 @@
                   "type": "text",
                   "id": "Eo5rk",
                   "name": "r2c2",
-                  "fill": "#64748B",
+                  "fill": "#94a3b8",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "Partial",
@@ -3313,7 +4136,7 @@
                   "type": "text",
                   "id": "HT61G",
                   "name": "r2c3",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3326,7 +4149,7 @@
                   "type": "text",
                   "id": "bKm5e",
                   "name": "r2c4",
-                  "fill": "#64748B",
+                  "fill": "#94a3b8",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "Partial",
@@ -3379,7 +4202,7 @@
                   "type": "text",
                   "id": "F0rv9",
                   "name": "r3c2",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3392,7 +4215,7 @@
                   "type": "text",
                   "id": "7DXTH",
                   "name": "r3c3",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✓",
@@ -3405,7 +4228,7 @@
                   "type": "text",
                   "id": "tnadn",
                   "name": "r3c4",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3458,7 +4281,7 @@
                   "type": "text",
                   "id": "bdB3T",
                   "name": "r4c2",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3471,7 +4294,7 @@
                   "type": "text",
                   "id": "lkKAz",
                   "name": "r4c3",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3484,7 +4307,7 @@
                   "type": "text",
                   "id": "OKJ2f",
                   "name": "r4c4",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3537,7 +4360,7 @@
                   "type": "text",
                   "id": "YllgM",
                   "name": "r5c2",
-                  "fill": "#64748B",
+                  "fill": "#94a3b8",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "Partial",
@@ -3550,7 +4373,7 @@
                   "type": "text",
                   "id": "N0c7M",
                   "name": "r5c3",
-                  "fill": "#475569",
+                  "fill": "#728197",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "✗",
@@ -3563,7 +4386,7 @@
                   "type": "text",
                   "id": "9J7Nu",
                   "name": "r5c4",
-                  "fill": "#64748B",
+                  "fill": "#94a3b8",
                   "textGrowth": "fixed-width",
                   "width": 260,
                   "content": "Partial",
@@ -3595,8 +4418,8 @@
           "x": 1860,
           "y": 1040,
           "name": "sn8",
-          "fill": "#475569",
-          "content": "08",
+          "fill": "#728197",
+          "content": "09",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
@@ -3606,9 +4429,9 @@
     {
       "type": "frame",
       "id": "Ky6rX",
-      "x": 16160,
+      "x": 18180,
       "y": 0,
-      "name": "09 - Business Model",
+      "name": "10 - Business Model",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -3650,13 +4473,14 @@
               "type": "text",
               "id": "RdzVQ",
               "name": "d9",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 600,
-              "content": "Multiple revenue streams aligned with platform usage and enterprise adoption.",
+              "content": "Five compounding revenue streams with built-in land-and-expand mechanics. Every new asset deepens platform engagement across all streams.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -3719,13 +4543,14 @@
                   "type": "text",
                   "id": "TpDWm",
                   "name": "bm1d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Tiered platform access based on volume, features, and support level. Starter, Growth, and Enterprise plans.",
+                  "content": "Tiered platform access: Starter, Growth, and Enterprise plans. Predictable ARR base that grows with seat count and org adoption. 85%+ gross margins.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -3783,13 +4608,14 @@
                   "type": "text",
                   "id": "m0SMc",
                   "name": "bm2d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Per-token minting fee for each asset or sub-token created. Volume discounts for enterprise customers.",
+                  "content": "Per-token fee for each asset or sub-token created. Revenue scales linearly with asset volume — a single enterprise can mint 10K–1M+ tokens annually. Volume discounts drive enterprise lock-in.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -3838,7 +4664,7 @@
                   "id": "mcoEA",
                   "name": "bm3t",
                   "fill": "#FFFFFF",
-                  "content": "Anchoring Fees",
+                  "content": "On-Chain Anchoring Fees",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "600"
@@ -3847,13 +4673,14 @@
                   "type": "text",
                   "id": "avC5f",
                   "name": "bm3d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Per-event on-chain anchoring fee. Batched for cost efficiency. Chain-agnostic pricing.",
+                  "content": "Per-event fee for immutable proof anchoring. Batched for cost efficiency. High-margin revenue stream — our cost per anchor is a fraction of what customers pay for verifiable proof.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -3865,7 +4692,7 @@
           "x": 120,
           "y": 680,
           "name": "bmRow2",
-          "width": 1120,
+          "width": 1680,
           "gap": 20,
           "children": [
             {
@@ -3922,13 +4749,14 @@
                   "type": "text",
                   "id": "IrJyv",
                   "name": "bm4d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Custom deployments, private instances, dedicated support, and SLA-backed infrastructure.",
+                  "content": "6-figure+ ACV for private cloud, on-premise, and hybrid deployments with dedicated support and SLA guarantees. Custom integrations create deep switching costs.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -3977,7 +4805,7 @@
                   "id": "EJJ7h",
                   "name": "bm5t",
                   "fill": "#FFFFFF",
-                  "content": "Analytics Module",
+                  "content": "Analytics & Compliance",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "600"
@@ -3986,13 +4814,76 @@
                   "type": "text",
                   "id": "iA6Ce",
                   "name": "bm5d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Advanced asset graph analytics, compliance reporting, and predictive insights.",
+                  "content": "Premium add-on for asset graph analytics, automated compliance reporting, and predictive insights. Expands ACV 30–50% per enterprise account.",
                   "lineHeight": 1.6,
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cJZnB",
+              "name": "bm6",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DPV7h",
+                  "name": "bm6badge",
+                  "height": 28,
+                  "fill": "#0F172A",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#22D3EE44"
+                  },
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tztZ7",
+                      "fill": "#22D3EE",
+                      "content": "FUTURE",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "pudGz",
+                  "fill": "#FFFFFF",
+                  "content": "Data & API Licensing",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ZTSXa",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Anonymised asset intelligence feeds and API access for financial institutions, insurers, and regulators. High-margin recurring revenue at scale.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -4004,20 +4895,217 @@
           "x": 1860,
           "y": 1040,
           "name": "sn9",
-          "fill": "#475569",
-          "content": "09",
+          "fill": "#728197",
+          "content": "10",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "D8r4F",
+          "x": 120,
+          "y": 920,
+          "name": "revFlywheel",
+          "width": 1680,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#22D3EE10",
+                "position": 0
+              },
+              {
+                "color": "#1E293B",
+                "position": 0.5
+              },
+              {
+                "color": "#22D3EE10",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#22D3EE22"
+          },
+          "padding": [
+            16,
+            32
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "uyEVe",
+              "name": "step1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7FnJD",
+                  "fill": "#22D3EE",
+                  "content": "LAND",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "Mdxpu",
+                  "fill": "#FFFFFF",
+                  "content": "SaaS + First Asset Class",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "lzwaH",
+              "name": "a1",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#22D3EE44"
+            },
+            {
+              "type": "frame",
+              "id": "azDOI",
+              "name": "step2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7sMWY",
+                  "fill": "#22D3EE",
+                  "content": "EXPAND",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "ljXSP",
+                  "fill": "#FFFFFF",
+                  "content": "More Assets → More Tokens",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "JZ4kA",
+              "name": "a2",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#22D3EE44"
+            },
+            {
+              "type": "frame",
+              "id": "xnZ7z",
+              "name": "step3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dZ1pp",
+                  "fill": "#22D3EE",
+                  "content": "DEEPEN",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "MJlXG",
+                  "fill": "#FFFFFF",
+                  "content": "Anchoring + Analytics Attach",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "KTzEH",
+              "name": "a3",
+              "width": 20,
+              "height": 20,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#22D3EE44"
+            },
+            {
+              "type": "frame",
+              "id": "B44CQ",
+              "name": "step4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jyhEu",
+                  "fill": "#22D3EE",
+                  "content": "LOCK-IN",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.5
+                },
+                {
+                  "type": "text",
+                  "id": "yjNEU",
+                  "fill": "#FFFFFF",
+                  "content": "Enterprise Deploy + Data Moat",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "type": "frame",
       "id": "AFazf",
-      "x": 18180,
+      "x": 22220,
       "y": 0,
-      "name": "10 - Roadmap",
+      "name": "12 - Roadmap",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -4144,7 +5232,7 @@
                           "type": "text",
                           "id": "F7NFx",
                           "name": "ph1t1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "Hierarchical token minting",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4174,7 +5262,7 @@
                           "type": "text",
                           "id": "MTQ50",
                           "name": "ph1t2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "Pack assembly & validation",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4204,7 +5292,7 @@
                           "type": "text",
                           "id": "l2FCD",
                           "name": "ph1t3",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "On-chain anchoring MVP",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4234,7 +5322,7 @@
                           "type": "text",
                           "id": "uCB96",
                           "name": "ph1t4",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "REST API & basic dashboard",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4323,7 +5411,7 @@
                           "type": "text",
                           "id": "b6wLu",
                           "name": "ph2t1",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "SAP & Oracle connectors",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4353,7 +5441,7 @@
                           "type": "text",
                           "id": "K2ElP",
                           "name": "ph2t2",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "Webhook event system",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4383,7 +5471,7 @@
                           "type": "text",
                           "id": "vi2Gr",
                           "name": "ph2t3",
-                          "fill": "#94A3B8",
+                          "fill": "#b4bfcc",
                           "content": "Compliance reporting",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4422,7 +5510,7 @@
                       "type": "text",
                       "id": "vpxvr",
                       "name": "ph3badge",
-                      "fill": "#64748B",
+                      "fill": "#94a3b8",
                       "content": "PHASE 3",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 12,
@@ -4462,7 +5550,7 @@
                           "type": "text",
                           "id": "aUFZ0",
                           "name": "ph3d1",
-                          "fill": "#475569",
+                          "fill": "#728197",
                           "content": "─",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
@@ -4472,7 +5560,7 @@
                           "type": "text",
                           "id": "ppQPv",
                           "name": "ph3t1",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "Multi-chain anchoring",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4492,7 +5580,7 @@
                           "type": "text",
                           "id": "PDaiJ",
                           "name": "ph3d2",
-                          "fill": "#475569",
+                          "fill": "#728197",
                           "content": "─",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
@@ -4502,7 +5590,7 @@
                           "type": "text",
                           "id": "BIYN2",
                           "name": "ph3t2",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "Cross-chain asset queries",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4541,7 +5629,7 @@
                       "type": "text",
                       "id": "uykcm",
                       "name": "ph4badge",
-                      "fill": "#64748B",
+                      "fill": "#94a3b8",
                       "content": "PHASE 4",
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 12,
@@ -4581,7 +5669,7 @@
                           "type": "text",
                           "id": "xvo7k",
                           "name": "ph4d1",
-                          "fill": "#475569",
+                          "fill": "#728197",
                           "content": "─",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
@@ -4591,7 +5679,7 @@
                           "type": "text",
                           "id": "BC6vl",
                           "name": "ph4t1",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "Predictive asset intelligence",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4611,7 +5699,7 @@
                           "type": "text",
                           "id": "IasvW",
                           "name": "ph4d2",
-                          "fill": "#475569",
+                          "fill": "#728197",
                           "content": "─",
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 12,
@@ -4621,7 +5709,7 @@
                           "type": "text",
                           "id": "LgnCp",
                           "name": "ph4t2",
-                          "fill": "#64748B",
+                          "fill": "#94a3b8",
                           "content": "Automated compliance alerts",
                           "fontFamily": "Inter",
                           "fontSize": 14,
@@ -4641,8 +5729,8 @@
           "x": 1860,
           "y": 1040,
           "name": "sn10",
-          "fill": "#475569",
-          "content": "10",
+          "fill": "#728197",
+          "content": "12",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
@@ -4652,9 +5740,9 @@
     {
       "type": "frame",
       "id": "CNfMm",
-      "x": 20200,
+      "x": 24240,
       "y": 0,
-      "name": "11 - Long-Term Vision",
+      "name": "13 - Long-Term Vision",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -4714,7 +5802,7 @@
               "fill": "#FFFFFF",
               "textGrowth": "fixed-width",
               "width": 800,
-              "content": "The Trust Infrastructure Layer for Real-World Assets",
+              "content": "Version Control for Physical Assets",
               "lineHeight": 1.15,
               "fontFamily": "Inter",
               "fontSize": 44,
@@ -4724,13 +5812,14 @@
               "type": "text",
               "id": "oMLcY",
               "name": "d11",
-              "fill": "#64748B",
+              "fill": "#94a3b8",
               "textGrowth": "fixed-width",
               "width": 750,
-              "content": "We are building the foundational layer that enterprises, governments, and financial institutions will use to verify, trade, and govern physical assets.",
+              "content": "We're building the provenance layer for the physical world. A future where every asset has a verifiable, composable digital twin.",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -4764,7 +5853,7 @@
                   "name": "v1icon",
                   "width": 40,
                   "height": 40,
-                  "iconFontName": "landmark",
+                  "iconFontName": "globe",
                   "iconFontFamily": "lucide",
                   "fill": "#22D3EE"
                 },
@@ -4775,7 +5864,7 @@
                   "fill": "#FFFFFF",
                   "textGrowth": "fixed-width",
                   "width": 200,
-                  "content": "Asset-Backed\nLending",
+                  "content": "Global Asset\nProvenance Layer",
                   "lineHeight": 1.3,
                   "textAlign": "center",
                   "fontFamily": "Inter",
@@ -4786,14 +5875,15 @@
                   "type": "text",
                   "id": "7I1ur",
                   "name": "v1d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Verifiable asset packs become collateral. Lenders can independently verify provenance and integrity.",
+                  "content": "A universal registry of verifiable asset histories across industries and borders.",
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -4818,7 +5908,7 @@
                   "name": "v2icon",
                   "width": 40,
                   "height": 40,
-                  "iconFontName": "circle-check",
+                  "iconFontName": "banknote",
                   "iconFontFamily": "lucide",
                   "fill": "#22D3EE"
                 },
@@ -4829,7 +5919,7 @@
                   "fill": "#FFFFFF",
                   "textGrowth": "fixed-width",
                   "width": 200,
-                  "content": "Automated\nCompliance",
+                  "content": "Embedded Finance\nEnablement",
                   "lineHeight": 1.3,
                   "textAlign": "center",
                   "fontFamily": "Inter",
@@ -4840,14 +5930,15 @@
                   "type": "text",
                   "id": "7SxTc",
                   "name": "v2d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Regulatory compliance verified automatically against on-chain asset structures. Zero manual overhead.",
+                  "content": "Tokenised assets become programmable collateral for lending, insurance, and trade finance.",
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -4872,7 +5963,7 @@
                   "name": "v3icon",
                   "width": 40,
                   "height": 40,
-                  "iconFontName": "chart-bar",
+                  "iconFontName": "clipboard-check",
                   "iconFontFamily": "lucide",
                   "fill": "#22D3EE"
                 },
@@ -4883,7 +5974,7 @@
                   "fill": "#FFFFFF",
                   "textGrowth": "fixed-width",
                   "width": 200,
-                  "content": "ESG\nIntelligence",
+                  "content": "Automated\nCompliance",
                   "lineHeight": 1.3,
                   "textAlign": "center",
                   "fontFamily": "Inter",
@@ -4894,14 +5985,15 @@
                   "type": "text",
                   "id": "mpaPx",
                   "name": "v3d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "ESG metrics derived from verifiable asset data. Auditable sustainability claims for every product.",
+                  "content": "Regulatory reporting generated automatically from verifiable asset data. Zero manual overhead.",
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -4970,14 +6062,15 @@
                   "type": "text",
                   "id": "xXT9W",
                   "name": "v4d",
-                  "fill": "#94A3B8",
+                  "fill": "#b4bfcc",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Token packs from different industries interoperate. A building can reference carbon credits, supply chain data, and financial instruments.",
+                  "content": "Token packs from one industry interoperate with token packs from another. A building can reference carbon credits, supply chain data, and financial instruments.",
                   "lineHeight": 1.6,
                   "textAlign": "center",
                   "fontFamily": "Inter",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -4989,8 +6082,8 @@
           "x": 1860,
           "y": 1040,
           "name": "sn11",
-          "fill": "#475569",
-          "content": "11",
+          "fill": "#728197",
+          "content": "13",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
@@ -5000,9 +6093,9 @@
     {
       "type": "frame",
       "id": "ZEePF",
-      "x": 22220,
+      "x": 26260,
       "y": 0,
-      "name": "12 - Closing",
+      "name": "14 - Closing",
       "clip": true,
       "width": 1920,
       "height": 1080,
@@ -5087,7 +6180,7 @@
               "fill": "#FFFFFF",
               "textGrowth": "fixed-width",
               "width": 900,
-              "content": "“Version Control for Physical Assets.”",
+              "content": "Build Trust Into Your Assets.",
               "lineHeight": 1.2,
               "textAlign": "center",
               "fontFamily": "Inter",
@@ -5107,7 +6200,7 @@
               "id": "hN2lg",
               "name": "compName12",
               "fill": "#22D3EE",
-              "content": "[Insert Company Name]",
+              "content": "BlockTrace",
               "textAlign": "center",
               "fontFamily": "Inter",
               "fontSize": 24,
@@ -5125,19 +6218,21 @@
                   "type": "text",
                   "id": "kqsTf",
                   "name": "contactEmail",
-                  "fill": "#64748B",
-                  "content": "contact@company.com",
+                  "fill": "#94a3b8",
+                  "content": "contact@blocktrace.io",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
                   "id": "Y0VY3",
                   "name": "contactWeb",
-                  "fill": "#64748B",
-                  "content": "www.company.com",
+                  "fill": "#94a3b8",
+                  "content": "www.blocktrace.io",
                   "fontFamily": "JetBrains Mono",
-                  "fontSize": 14
+                  "fontSize": 14,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -5149,11 +6244,1040 @@
           "x": 1860,
           "y": 1040,
           "name": "sn12",
-          "fill": "#475569",
-          "content": "12",
+          "fill": "#728197",
+          "content": "14",
           "fontFamily": "JetBrains Mono",
           "fontSize": 12,
           "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jOmv4",
+      "x": 20200,
+      "y": 0,
+      "name": "11 - Go-To-Market",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "#0A0F1C",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "titn0",
+          "x": 120,
+          "y": 80,
+          "name": "h11",
+          "width": 700,
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "W7koF",
+              "fill": "#22D3EE",
+              "content": "GO-TO-MARKET",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "Y0rBF",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Market Entry & Expansion Strategy",
+              "lineHeight": 1.15,
+              "fontFamily": "Inter",
+              "fontSize": 44,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "h8Xwj",
+              "fill": "#94a3b8",
+              "textGrowth": "fixed-width",
+              "width": 650,
+              "content": "A focused beachhead strategy targeting high-pain, high-regulation verticals — then expanding horizontally across asset-heavy industries.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "pd5oN",
+          "x": 1860,
+          "y": 1040,
+          "fill": "#728197",
+          "content": "11",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 12,
+          "fontWeight": "500"
+        },
+        {
+          "type": "text",
+          "id": "NgM0k",
+          "x": 120,
+          "y": 310,
+          "name": "beachLabel",
+          "fill": "#728197",
+          "content": "BEACHHEAD VERTICALS",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "Xj8cv",
+          "x": 120,
+          "y": 340,
+          "name": "beachheadRow",
+          "width": 1680,
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "YtBSZ",
+              "name": "bh1",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t1niF",
+                  "name": "b1head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "8Tia2",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "factory",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NDADf",
+                      "fill": "#FFFFFF",
+                      "content": "Manufacturing",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "YVZUK",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Highest regulatory pressure on BOM traceability. CSRD, CBAM, and due diligence mandates create urgent buyer need. Large token volume per customer.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "f7EV7",
+                  "name": "b1tags",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tLCEd",
+                      "name": "b1t1",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eo8Jb",
+                          "fill": "#22D3EE",
+                          "content": "High Regulation",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EIjsr",
+                      "name": "b1t2",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s1gvI",
+                          "fill": "#22D3EE",
+                          "content": "High Volume",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kbQZQ",
+              "name": "bh2",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "44sAs",
+                  "name": "b2head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "qNYJS",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "building",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JQwmZ",
+                      "fill": "#FFFFFF",
+                      "content": "Real Estate",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "BrPTK",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Property transactions demand verified documentation chains. High asset value creates willingness to pay. Each property generates deep token pack structures.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "tjyC6",
+                  "name": "b2tags",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PSam3",
+                      "name": "b2t1",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f335z",
+                          "fill": "#22D3EE",
+                          "content": "High Asset Value",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OTSl4",
+                      "name": "b2t2",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5sr4Q",
+                          "fill": "#22D3EE",
+                          "content": "Deep Packs",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kt4HP",
+              "name": "bh3",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qY35O",
+                  "name": "b3head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "KQVlf",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "pill",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w98la",
+                      "fill": "#FFFFFF",
+                      "content": "Pharmaceuticals",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Bjplm",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Strictest chain-of-custody requirements globally. FDA, EMA serialisation mandates. Non-compliance penalties create strong urgency to adopt.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "eHPWq",
+                  "name": "b3tags",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h4fmy",
+                      "name": "b3t1",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oJb3j",
+                          "fill": "#22D3EE",
+                          "content": "Mandatory",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hT7z8",
+                      "name": "b3t2",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "khMkw",
+                          "fill": "#22D3EE",
+                          "content": "High Penalties",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jonO5",
+          "x": 120,
+          "y": 570,
+          "fill": "#728197",
+          "content": "PRICING TIERS",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "38NnP",
+          "x": 120,
+          "y": 596,
+          "name": "tierRow",
+          "width": 1680,
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "EmtSd",
+              "name": "tier1",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rE29D",
+                  "name": "t1head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NcXwH",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "chlqK",
+                          "fill": "#b4bfcc",
+                          "content": "STARTER",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "20nkW",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "For teams validating product-market fit with initial asset classes.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Y8HIV",
+                  "name": "t1items",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vG0LU",
+                      "fill": "#FFFFFF",
+                      "content": "Up to 1,000 tokens / month",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lyZo2",
+                      "fill": "#FFFFFF",
+                      "content": "Core dashboard + API access",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LfcTF",
+                      "fill": "#FFFFFF",
+                      "content": "Shared infrastructure",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3Kspq",
+                      "fill": "#FFFFFF",
+                      "content": "Email support",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CRW6g",
+              "name": "tier2",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#22D3EE15",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1E293B",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 12,
+              "stroke": {
+                "thickness": 2,
+                "fill": "#22D3EE"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "39tKw",
+                  "name": "t2head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9NtcB",
+                      "fill": "#22D3EE",
+                      "cornerRadius": 6,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8Ro7f",
+                          "fill": "#0A0F1C",
+                          "content": "GROWTH",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "g1Rjd",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "For scaling organisations expanding across asset types and business units.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "cbxGx",
+                  "name": "t2items",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sCEs4",
+                      "fill": "#FFFFFF",
+                      "content": "Up to 50,000 tokens / month",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j5uze",
+                      "fill": "#FFFFFF",
+                      "content": "Analytics module + compliance",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rMxks",
+                      "fill": "#FFFFFF",
+                      "content": "On-chain anchoring included",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UDORX",
+                      "fill": "#FFFFFF",
+                      "content": "Priority support + SLA",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IsoRM",
+              "name": "tier3",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Vmu2u",
+                  "name": "t3head",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "viuiB",
+                      "fill": "#0F172A",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#22D3EE33"
+                      },
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PiQjm",
+                          "fill": "#22D3EE",
+                          "content": "ENTERPRISE",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "sk4OF",
+                  "fill": "#b4bfcc",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "For global organisations requiring private deployment and custom integrations.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "6Q4aT",
+                  "name": "t3items",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z9TPr",
+                      "fill": "#FFFFFF",
+                      "content": "Unlimited tokens",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CyTps",
+                      "fill": "#FFFFFF",
+                      "content": "Private cloud / on-premise",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "stMyh",
+                      "fill": "#FFFFFF",
+                      "content": "Custom ERP integrations",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CHw4G",
+                      "fill": "#FFFFFF",
+                      "content": "Dedicated CSM + 24/7 support",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "PJ5XC",
+          "x": 120,
+          "y": 835,
+          "fill": "#728197",
+          "content": "EXPANSION STRATEGY",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 11,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "HIxif",
+          "x": 120,
+          "y": 860,
+          "name": "expansionRow",
+          "width": 1680,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#22D3EE08",
+                "position": 0
+              },
+              {
+                "color": "#1E293B44",
+                "position": 0.5
+              },
+              {
+                "color": "#22D3EE08",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 12,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#22D3EE15"
+          },
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WqLWt",
+              "name": "e1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                16,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Hc0KU",
+                  "fill": "#22D3EE",
+                  "content": "Phase 1",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "SbUSO",
+                  "fill": "#FFFFFF",
+                  "content": "Single Vertical Entry",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "jyzQo",
+                  "fill": "#94a3b8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Win 3–5 design partners per vertical. Prove ROI with one asset class.",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cOYa6",
+              "name": "ea1",
+              "width": 60,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Wyhdz",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#22D3EE44"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1wsx2",
+              "name": "e2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                16,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7nqAN",
+                  "fill": "#22D3EE",
+                  "content": "Phase 2",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "AYEpt",
+                  "fill": "#FFFFFF",
+                  "content": "Multi-Asset Expansion",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AyHX4",
+                  "fill": "#94a3b8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Expand within accounts to new asset types. Upsell analytics and anchoring.",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cLVh4",
+              "name": "ea2",
+              "width": 60,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "XcEQJ",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#22D3EE44"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2fPiW",
+              "name": "e3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "padding": [
+                16,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SIUDV",
+                  "fill": "#22D3EE",
+                  "content": "Phase 3",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "zzB4w",
+                  "fill": "#FFFFFF",
+                  "content": "Cross-Org Network Effects",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "TLxYz",
+                  "fill": "#94a3b8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Supply chain partners onboard to verify shared assets. Network grows virally.",
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "z5gTJ",
+          "x": 120,
+          "y": 850,
+          "fill": "#22D3EE11",
+          "width": 1680,
+          "height": 1
         }
       ]
     }
